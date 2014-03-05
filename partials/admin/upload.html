@@ -1,0 +1,159 @@
+<div class="container">
+
+	<div class="alert alert-warning alert-dismissable" ng-show="adminModel.status!=null">
+		<button type="button" class="close" aria-hidden="true" ng-click="adminModel.status=null">&times;</button>
+		{{adminModel.status}}
+	</div>
+	
+	<div class="alert alert-warning alert-dismissable" ng-show="!adminModel.cachingEnabled">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		Please add a <code>cache</code> directory under the document root with group read/write permissions to enable caching.<br/>This vastly improves performance for large datasets.
+	</div>
+	
+	<form name="uploadForm" role="form" class="form-horizontal">
+		
+		<div class="form-group">
+   			
+   			<div class="col-lg-10">
+    			<h2 id="header">Add a Dataset</h2>
+   			</div>
+   			
+   		</div>
+   		
+  		<div class="form-group">
+  			
+   			<label class="col-lg-1" for="entity-parent">Name</label>
+   			
+   			<div class="col-lg-6">
+    			<input class="form-control input-sm" type="text" ng-model="adminModel.formData.upload.name" placeholder="Name for the dataset" />
+   			</div>
+   			
+   		</div>
+   		
+   		<div class="form-group">
+  			
+   			<label class="col-lg-1" for="entity-parent">Type</label>
+   			
+   			<div class="col-lg-6">
+   				<select class="form-control input-sm" ng-model="adminModel.formData.upload.type_id" ng-options="t.id as t.label for t in adminModel.importTypeOptions"></select>
+   			</div>
+   			
+   		</div>
+   		
+  		<div class="form-group">
+  			
+  			<label class="col-lg-1" for="entity-parent">File</label>
+  			
+   			<div class="col-lg-6">
+   				<input type="file" ng-model="adminModel.formData.upload.file" file-upload />
+  			</div>
+   			
+   		</div>
+		
+		<div class="form-group">
+  			
+   			<label class="col-lg-1" for="entity-parent">Public?</label>
+   			
+   			<div class="col-lg-6">
+   				
+   				<div class="switch-small" data-on-label="Yes" data-off-label="No" data-on="info" data-off="success" ng-model="adminModel.formData.upload.is_public" bootstrap-switch>
+					<input type="checkbox">
+				</div>
+				
+			</div>
+				
+   		</div>
+   		
+   		<div id="dataset-fields-group" class="form-group" ng-show="adminModel.formData.upload.id!=null">
+				
+	    	<label class="col-lg-1" for="entity-parent">Entity Types</label>
+			
+	    	<div class="col-lg-6 list-group">
+	    	
+				<div class="list-group-item" ng-repeat="entityType in adminModel.formData.upload.entityTypes">
+				
+		 			<h3 class="text-primary" style="margin-left:20px;margin-bottom:40px">{{entityType.name}}</h3>
+		 			
+					<form class="form-horizontal" role="form">
+					
+				 		<div class="form-group"">
+				 		
+				 			<label class="col-sm-3 control-label" for="color{{entityType.id}}">Color</label>
+				 			
+				 			<div class="col-sm-3">
+				 				<input id="color{{entityType.id}}" class="form-control colorfield" style="width:100px" type="text" ng-model="entityType.color" colorpicker>
+				 			</div>
+				 			
+				 			<div class="col-sm-6">
+				 				<small class="text-muted">Color for <strong>{{entityType.name}}s</strong></small>
+				 			</div>
+				 			
+				 		</div>
+				 		
+				 		<div class="form-group"">
+				 		
+				 			<label class="col-sm-3 control-label" for="enabled{{entityType.id}}">Enabled</label>
+				 			
+				 			<div class="col-sm-3">
+				 				<div id="enabled{{entityType.id}}" class="make-switch switch-small" data-on-label="On" data-off-label="Off" data-on="info" data-off="success" ng-model="entityType.enabled" bootstrap-switch>
+									<input type="checkbox">
+								</div>
+			 				</div>
+			 				
+			 				<div class="col-sm-6">
+				 				<small class="text-muted">Whether <strong>{{entityType.name}}s</strong> appear at all</small>
+				 			</div>
+				 			
+				 		</div>
+				 		
+				 		<div class="form-group"">
+				 			
+				 			<label class="col-sm-3 control-label" for="enabled{{entityType.id}}">Visible</label>
+				 			
+				 			<div class="col-sm-3">
+				 				<div id="visible{{entityType.id}}" class="make-switch switch-small" data-on-label="On" data-off-label="Off" data-on="info" data-off="success" ng-model="entityType.visible" bootstrap-switch>
+									<input type="checkbox">
+								</div>
+				 			</div>
+				 			
+				 			<div class="col-sm-6">
+				 				<small class="text-muted">Whether <strong>{{entityType.name}}s</strong> are visible by default</small>
+				 			</div>
+				 			
+				 		</div>
+				 		
+				 		<div class="form-group">
+				 			
+				 			<label class="col-sm-3 control-label" for="pack{{entityType.id}}">Pack children</label>
+				 			
+				 			<div class="col-sm-3">
+				 				<div id="pack{{entityType.id}}" class="make-switch switch-small" data-on-label="On" data-off-label="Off" data-on="info" data-off="success" ng-model="entityType.pack" bootstrap-switch>
+									<input type="checkbox">
+								</div>
+				 			</div>
+				 			
+				 			<div class="col-sm-6">
+				 				<small class="text-muted">Whether descendants of <strong>{{entityType.name}}s</strong> appear packed or linked</small>
+				 			</div>
+				 			
+				 		</div>
+				 		
+			 		</form>
+			 		
+		 		</div>
+		 		
+	    	</div>
+		
+	    </div>
+			    
+		<div class="form-group">
+		
+			<div class="col-lg-1 col-lg-offset-1">
+	    		<button type="button" class="btn btn-default" ng-click="uploadDataset()">Save</button>
+	   		</div>
+		
+		</div>
+		
+	</form>
+
+</div>

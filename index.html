@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 	bootstrap -->
+<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-switch/bootstrap-switch.min.css" rel="stylesheet" media="screen">
+<link href="css/colorpicker/colorpicker.css" rel="stylesheet" media="screen">
+<link href="css/slider/slider.css" rel="stylesheet" media="screen">
+<link href="css/styles.css" rel="stylesheet" media="screen">
+<!-- 	libraries -->
+<script type="text/javascript" src="js/lib/jquery-1.9.1.min.js"></script>
+<!-- 		angular -->
+<script type="text/javascript" src="http://code.angularjs.org/1.2.0-rc.3/angular.min.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.2.0-rc.3/angular-route.min.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.2.0-rc.3/angular-sanitize.min.js"></script>
+<!-- 		underscore -->
+<script type="text/javascript" src="js/lib/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="js/lib/underscore/underscore.string.min.js"></script>
+<!-- 		d3 -->
+<script type="text/javascript" src="js/lib/d3.min.js"></script>
+<!-- 		bootstrap -->
+<script type="text/javascript" src="js/lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap-switch/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="js/lib/slider/bootstrap-slider.js"></script>
+<script type="text/javascript" src="js/lib/colorpicker/bootstrap-colorpicker.js"></script>
+<!--	angular imports -->
+<script type="text/javascript" src="app/app.js"></script>
+<script type="text/javascript" src="app/constants.js"></script>
+<script type="text/javascript" src="app/controllers/admin.js"></script>
+<script type="text/javascript" src="app/controllers/app.js"></script>
+<script type="text/javascript" src="app/controllers/user.js"></script>
+<script type="text/javascript" src="app/directives/bootstrap-slider.js"></script>
+<script type="text/javascript" src="app/directives/bootstrap-switch.js"></script>
+<script type="text/javascript" src="app/directives/colorpicker.js"></script>
+<script type="text/javascript" src="app/directives/file-upload.js"></script>
+<script type="text/javascript" src="app/directives/focus.js"></script>
+<script type="text/javascript" src="app/directives/help-tip.js"></script>
+<script type="text/javascript" src="app/directives/node-link.js"></script>
+<script type="text/javascript" src="app/services/authentication.js"></script>
+<script type="text/javascript" src="app/services/dataset.js"></script>
+<script type="text/javascript" src="app/services/user.js"></script>
+</head>
+
+<body ng-controller="AppCtrl" ng-init="init()">
+
+	<!--	loading blocker -->
+	<div id="blocker" ng-show="model.loading">
+		<img src="images/ajax-loader.gif"/>
+	</div>
+	
+	<!-- header, only shown when logged in -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		
+		<div class="container">
+		
+			<div class="navbar-header">
+			
+				<div class="navbar-brand">
+					<a ng-href='#!/view'><img src="images/logo.png"/></a>
+				</div>
+				 
+			</div>
+			
+			<ul class="nav navbar-nav navbar-right" ng-show="userService.isLoggedIn()">
+				
+				<li>
+					<a ng-controller="UserCtrl" ng-click="logout()">Logout</a>
+				</li>
+				
+				
+				<li>
+					<a class="btn btn-link btn-lg" ng-class="{active:model.help}" ng-click="model.help=!model.help">
+  						<span class="glyphicon glyphicon-question-sign"></span>
+					</a>
+				</li>
+				
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right main" ng-show="userService.isLoggedIn()">
+				
+				<li class="dropdown" title="Select a dataset" help-tip="model.help">
+					
+					<a class="dropdown-toggle" ng-class="{active:location.path().indexOf('/view/')>-1}" data-toggle="dropdown">{{model.selectedDataset ? model.selectedDataset.name : 'Dataset'}} <b class="caret"></b></a>
+					
+					<ul class="dropdown-menu">
+					
+						<li ng-repeat="dataset in model.datasets | orderBy:'name':false">
+							<a class='btn btn-link' ng-href='#!/view/{{dataset.id}}'>{{dataset.name}}</a>
+						</li>
+						
+						<li ng-show="!model.datasets.length">
+							<span class='btn'>No datasets</span>
+						</li>
+						
+					</ul>
+					
+				</li>
+				
+				<!-- admin options -->
+				<li class="dropdown" ng-show="userService.isLoggedIn() && userService.canUpload()">
+				
+					<a class="dropdown-toggle" data-toggle="dropdown" ng-class="{active:location.path().indexOf('/admin')>-1}">Admin <b class="caret"></b></a>
+					
+					<ul class="dropdown-menu">
+					
+						<li ng-repeat="nav in model.adminNavigation">
+							<a class='btn btn-link' ng-click="setLocation('{{nav.path}}')">{{nav.label}}</a>
+						</li>
+						
+						<li class="divider"></li>
+						
+						<li ng-if="userService.isAdmin()">
+							<a class='btn btn-link' ng-click="setLocation('/admin/users')">Manage Users</a>
+						</li>
+						
+					</ul>
+					
+			    </li>
+			    
+			    <li>
+					<a ng-controller="UserCtrl" ng-href="#!/about" ng-class="{active:location.path().indexOf('/about')>-1}">About</a>
+				</li>
+			    
+			</ul>
+		
+		</div>
+		
+	</nav>
+		
+	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" ng-show="userService.isLoggedIn() && !model.adminMode && model.selectedDataset!=null">
+		
+		<div class="container">
+		
+			<ul class="nav navbar-nav">
+				 
+				<li class="dropdown" title="Change node label" help-tip="model.help" >
+					
+					<a class="dropdown-toggle" data-toggle="dropdown">Node Label <b class="caret"></b></a>
+					
+					<ul id="label-select" class="dropdown-menu">
+						<li ng-repeat="field in model.selectedDataset.fields"><a id='label_option_{{field.id}}' ng-click='setLabel("{{field.id}}")'>{{field.name}}</a></li>
+					</ul>
+					
+				</li>
+				
+				<li class="dropdown" title="Toggle entity type visibility" help-tip="model.help">
+					
+					<a class="dropdown-toggle" data-toggle="dropdown">Displayed Entities <b class="caret"></b></a>
+					
+					<ul class="dropdown-menu">
+						<li ng-repeat="entityType in model.selectedDataset.entityTypes | filter:{enabled:true}">
+							<a ng-class="{'btn':true,'btn-link':true,'active':entityType.visible}" style="color:#{{entityType.color}}" ng-click="entityType.visible=!entityType.visible">{{entityType.name}} <span ng-show="entityType.visible" >x</span></a>
+						</li>
+					</ul>
+					
+				</li>
+				 
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+			
+				<li class="footer-control" title="Set zoom factor" help-tip="model.help">
+					<label class="small">Zoom</label> <input type="text" ng-model="model.settings.zoomFactor" bootstrap-slider="5" style="width:100px">
+				</li>
+				
+				<li class="footer-control" title="Toggle edges" help-tip="model.help">
+					<label class="small">Edges</label> <input type="checkbox" ng-model="model.settings.descendantsMaximized" data-size="small" bootstrap-switch >
+				</li>
+				
+			</ul>
+			
+		</div>
+		
+	</nav>
+		
+	<div style="width:100%;height:100%" ng-view ng-class="{content:model.selectedDataset==null}"></div>
+	
+</body>
+
+</html>

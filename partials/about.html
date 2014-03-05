@@ -1,0 +1,40 @@
+<div class="container">
+	
+	<h2>About</h2>
+	
+	<div class="row">
+	
+		<div class="col-md-8">
+			
+			<div style="margin-bottom:40px;">
+				<p>The Entity Mapper is a collaborative, web-based application for visualizing coded qualitative data as an interactive node-link diagram. By abstracting away the time-consuming process of constructing a visualization manually, the tool allows the researcher to focus on deriving insights from their data through an instant upload format.</p>
+			</div>
+			
+			<h3>Frequently Asked Questions</h3>
+	
+			<div class="panel-group" id="accordion">
+			
+				<div class="panel panel-default" ng-repeat="faq in model.faqs">
+				
+					<div class="panel-heading">
+					
+		      			<h4 class="panel-title" ng-class>
+		      			
+		        			<a data-toggle="collapse" data-parent="#accordion" ng-href="#collapse{{$index}}" onclick="return false;">
+		          				<label>{{faq.title}}</label>
+		        			</a>
+		      			</h4>
+		      			
+		    		</div>
+		    		
+		   			<div id="collapse{{$index}}" class="panel-collapse collapse" ng-class="{in:$index==0}">
+		     			<div class="panel-body" ng-bind-html="faq.content"></div>
+		    		</div>
+		    		
+		  		</div>
+  
+			</div>
+	    
+	  </div>
+	
+</div>

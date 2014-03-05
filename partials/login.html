@@ -1,0 +1,51 @@
+<div class="container">
+	
+	<div class="row">
+	
+		<div class="col-md-6">
+			
+			<h2>{{APP_TAGLINE}}</h2>
+			
+	    </div>
+	    
+	    <div class="col-md-4 col-md-offset-2">
+	    
+	    	 <div class="alert alert-warning alert-dismissable" ng-show="userModel.status!=null">
+				<button type="button" class="close" aria-hidden="true" ng-click="setStatus()">&times;</button>
+				{{userModel.status}}
+			</div>
+			
+	    	<!-- login form -->
+			<form role="form" ng-submit="login()" >
+				
+				<div class="form-group">
+		
+					<label class="control-label" for="email">Email</label>
+					
+					<input ng-model="userModel.formData.login.username" class="form-control" type="text" id="email" placeholder="Email" focus>
+		    
+				</div>
+				
+				<div class="form-group">
+		
+					<label class="control-label" for="password">Password</label>
+					
+					<input ng-model="userModel.formData.login.password" class="form-control" type="password" id="password" placeholder="Password">
+		    
+				</div>
+		
+				<div class="form-group">
+		
+					<input type="submit" id="submit" class="btn btn-primary" value="Login" />
+		    
+				</div>
+				
+				<a ng-click="setLocation('/signup')">Don't have an account? Click here to create one.</a>
+
+			</form>
+			
+	    </div>
+	    
+	  </div>
+	
+</div>

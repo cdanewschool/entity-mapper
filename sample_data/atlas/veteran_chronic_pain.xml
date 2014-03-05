@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<storedHU xmlns:aml="http://www.atlasti.com/hu/ns2003" lastSaved="2013-06-13T12:53:27 " creator="ATLAS.ti" method="AML (ATLAS Markup Language)" version="7.0.88" mode="complete">
+
+<hermUnit name="Veteran_chronic_pain" au="Super" cDate="2013-06-11T14:05:52" mDate="2013-06-13T12:52:04" lastPD="11" prot="private" />
+<coAuthors>
+</coAuthors>
+
+<dataSources size="11" >
+ <dataSource id="doc_1" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary6.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary6.rtf!,D3DAB94D5A6DD4263ADA63CA8BBA7E2A,0,3548413157,39923, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_2" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary8.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary8.rtf!,EC9B0F116B30D8CCB60FA1D840794A3B,0,3548413160,1087606, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_3" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary3.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary3.rtf!,1465E39F56B7C7F83DB80BC5FB280870,0,3548413156,190626, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_4" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary11.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary11.rtf!,2B71660C15D9E089DA02608DAD24ACE,0,3548413155,38041, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_5" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary10.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary10.rtf!,1A5C4652B50D19982E3DEEAD7B518835,0,3548413155,973818, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_6" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary5.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary5.rtf!,F88385C23DD2E1AD65ADAC688021DB6B,0,3548413157,33484, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_7" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary7.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary7.rtf!,B40B772E4182A59CE72DA7D29B270F75,0,3548413158,91150, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_8" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary4.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary4.rtf!,127862536AC787679E68415C082209B2,0,3548413157,31919, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_9" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary2.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary2.rtf!,2A3957E33BD073AB19D8FD4CE24642A2,0,3548413156,33646, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_10" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\Diary1.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\Diary1.rtf!,AEA94D3C639B6E81E4D830A07F48A879,0,3548413154,105029, !!!!!!!" mime="text/rtf" renderer="REC5" />
+ <dataSource id="doc_11" loc="@MD:C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary9.rtf!LocalManaged!C:\Users\Anne Luther\Desktop\diaries_chronic_pain\diary9.rtf!,997E5DF34277D4D7237E627DD4BC791F,0,3548413169,36168, !!!!!!!" mime="text/rtf" renderer="REC5" />
+</dataSources>
+
+
+<primDocs size="11" >
+ <primDoc name="Diary1.rtf" id="pd_1" loc="doc_10" au="Super" cDate="2013-06-11T14:19:30" mDate="2013-06-13T12:30:00" qIndex="37" >
+ <quotations size="23" >
+  <q name="husband is sleeping on the liv.." id="q1_1" au="Super" cDate="2013-06-11T14:22:11" mDate="2013-06-11T14:22:12" loc="13 @ 4, 89 @ 4!">
+   <content size="84"><p> husband is sleeping on the living room floor, because our bed hurts his back</p></content>
+  </q>
+  <q name="grenade to his back" id="q1_2" au="Super" cDate="2013-06-11T14:22:39" mDate="2013-06-11T14:22:39" loc="159 @ 4, 178 @ 4!">
+   <content size="27"><p> grenade to his back</p></content>
+  </q>
+  <q name="neglect has made my husband's .." id="q1_5" au="Super" cDate="2013-06-11T14:23:34" mDate="2013-06-13T12:27:06" loc="352 @ 4, 452 @ 4!">
+   <content size="118"><p> neglect has made my husband's HYPERLINK &quot;http://www.familyofavet.com/PTSD.html&quot; PTSD shoot up so bad</p></content>
+  </q>
+  <q name="He is not the man he used to b.." id="q1_7" au="Super" cDate="2013-06-11T14:23:56" mDate="2013-06-11T14:41:35" loc="488 @ 4, 520 @ 4!">
+   <content size="40"><p> He is not the man he used to be.</p></content>
+  </q>
+  <q name="stomach hurts" id="q1_10" au="Super" cDate="2013-06-11T14:24:29" mDate="2013-06-13T12:27:40" loc="58 @ 6, 70 @ 6!">
+   <content size="20"><p>stomach hurts</p></content>
+  </q>
+  <q name="body chills" id="q1_11" au="Super" cDate="2013-06-11T14:24:36" mDate="2013-06-13T12:30:14" loc="76 @ 6, 87 @ 6!">
+   <content size="19"><p> body chills</p></content>
+  </q>
+  <q name="with only pain pills in our po.." id="q1_12" au="Super" cDate="2013-06-11T14:26:43" mDate="2013-06-11T15:49:44" loc="307 @ 6, 339 @ 6!">
+   <content size="40"><p>with only pain pills in our pocke</p></content>
+  </q>
+  <q name="month out wait time" id="q1_14" au="Super" cDate="2013-06-11T14:27:36" mDate="2013-06-11T14:43:52" loc="483 @ 6, 502 @ 6!">
+   <content size="27"><p> month out wait time</p></content>
+  </q>
+  <q name="He has never been tested for H.." id="q1_17" au="Super" cDate="2013-06-11T14:28:32" mDate="2013-06-11T14:40:32" loc="115 @ 8, 214 @ 8!">
+   <content size="117"><p>He has never been tested for HYPERLINK &quot;http://www.familyofavet.com/TBI.html&quot; brain injuries either.</p></content>
+  </q>
+  <q name="It is very hard to help his PT.." id="q1_18" au="Super" cDate="2013-06-11T14:28:41" mDate="2013-06-11T14:28:41" loc="216 @ 8, 275 @ 8!">
+   <content size="67"><p>It is very hard to help his PTSD when he is in chronic pain!</p></content>
+  </q>
+  <q name="Last 2 years have been the wor.." id="q1_19" au="Super" cDate="2013-06-11T14:29:00" mDate="2013-06-11T14:29:00" loc="277 @ 8, 336 @ 8!">
+   <content size="67"><p>Last 2 years have been the worst on our marriage and family.</p></content>
+  </q>
+  <q name="His anger scares me sometimes" id="q1_20" au="Super" cDate="2013-06-11T14:29:16" mDate="2013-06-11T14:29:16" loc="337 @ 8, 366 @ 8!">
+   <content size="37"><p> His anger scares me sometimes</p></content>
+  </q>
+  <q name="he attempted to end his life" id="q1_23" au="Super" cDate="2013-06-11T14:29:58" mDate="2013-06-11T14:29:59" loc="134 @ 10, 163 @ 10!">
+   <content size="37"><p> he attempted to end his life </p></content>
+  </q>
+  <q name="&quot; sorry we can't help someone .." id="q1_24" au="Super" cDate="2013-06-11T14:30:16" mDate="2013-06-11T14:30:16" loc="250 @ 10, 311 @ 10!">
+   <content size="79"><p> &quot; sorry we can't help someone who does not want to get help&quot;.</p></content>
+  </q>
+  <q name="MRI scheduled" id="q1_26" au="Super" cDate="2013-06-11T14:30:50" mDate="2013-06-11T14:30:50" loc="129 @ 12, 141 @ 12!">
+   <content size="20"><p>MRI scheduled</p></content>
+  </q>
+  <q name="a stubborn hurt man is, after .." id="q1_29" au="Super" cDate="2013-06-11T14:31:52" mDate="2013-06-11T14:31:52" loc="278 @ 12, 484 @ 12!">
+   <content size="214"><p>a stubborn hurt man is, after 6 years of being ignored by those who are supposed to help, he does not want to go to E.R tonight. He assumes he will have to wait 10 hours to be given pain pills and sent home.</p></content>
+  </q>
+  <q name="Physically he can't move, can'.." id="q1_31" au="Super" cDate="2013-06-11T14:32:16" mDate="2013-06-11T15:13:05" loc="538 @ 12, 613 @ 12!">
+   <content size="83"><p> Physically he can't move, can't do daily activities, and support our family</p></content>
+  </q>
+  <q name="high hopes" id="q1_32" au="Super" cDate="2013-06-11T14:32:32" mDate="2013-06-11T14:32:32" loc="623 @ 12, 633 @ 12!">
+   <content size="18"><p> high hopes</p></content>
+  </q>
+  <q name="I just wish that 6 years ago h.." id="q1_33" au="Super" cDate="2013-06-11T14:33:00" mDate="2013-06-11T14:33:00" loc="703 @ 12, 768 @ 12!">
+   <content size="73"><p> I just wish that 6 years ago he could of got this kind of support</p></content>
+  </q>
+  <q name="Before he got out the Army the.." id="q1_34" au="Super" cDate="2013-06-11T14:38:23" mDate="2013-06-11T14:38:23" loc="1 @ 8, 113 @ 8!">
+   <content size="120"><p>Before he got out the Army they did an MRI, but not once in six years did the VA look at them, nor take new ones.</p></content>
+  </q>
+  <q name="he is suicidal" id="q1_35" au="Super" cDate="2013-06-11T14:39:32" mDate="2013-06-11T14:39:32" loc="64 @ 10, 77 @ 10!">
+   <content size="21"><p>he is suicidal</p></content>
+  </q>
+  <q name="his sciatica pain is beyond wo.." id="q1_36" au="Super" cDate="2013-06-13T12:28:07" mDate="2013-06-13T12:28:07" loc="22 @ 6, 55 @ 6!">
+   <content size="41"><p> his sciatica pain is beyond words</p></content>
+  </q>
+  <q name="vomited" id="q1_37" au="Super" cDate="2013-06-13T12:30:00" mDate="2013-06-13T12:30:00" loc="14 @ 6, 20 @ 6!">
+   <content size="14"><p>vomited</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary10.rtf" id="pd_2" loc="doc_5" au="Super" cDate="2013-06-11T14:19:30" mDate="2013-06-11T15:39:06" qIndex="26" >
+ <quotations size="26" >
+  <q name="Well I went to the VA today. F.." id="q2_1" au="Super" cDate="2013-06-11T15:19:58" mDate="2013-06-11T15:19:58" loc="2 @ 5, 156 @ 5!">
+   <content size="162"><p>Well I went to the VA today. For a shrink appointment but at the check in was told that my doc wasn't seeing anymore patience because she has been promoted</p></content>
+  </q>
+  <q name="So the VA mental Heath dept. h.." id="q2_2" au="Super" cDate="2013-06-11T15:21:33" mDate="2013-06-11T15:21:33" loc="191 @ 5, 605 @ 5!">
+   <content size="422"><p>So the VA mental Heath dept. has yet again canceled my Heath care. I don't have a social worker anymore because he's to busy to care and don't show up for group meetings. Are when he's there he leaves early saying he got work to do. Now I don't even have a shrink and cant get my meds anymore. people wonder why Vets do the things they do. We can't get help from any where. We are truly alone in our fight. NO HOPE.</p></content>
+  </q>
+  <q name="Now I don't even have a shrink.." id="q2_3" au="Super" cDate="2013-06-11T15:22:49" mDate="2013-06-11T15:22:49" loc="424 @ 5, 529 @ 5!">
+   <content size="113"><p>Now I don't even have a shrink and cant get my meds anymore. people wonder why Vets do the things they do.</p></content>
+  </q>
+  <q name="We are truly alone in our figh.." id="q2_4" au="Super" cDate="2013-06-11T15:23:30" mDate="2013-06-11T15:23:30" loc="565 @ 5, 595 @ 5!">
+   <content size="38"><p>We are truly alone in our fight</p></content>
+  </q>
+  <q name="NO HOPE." id="q2_5" au="Super" cDate="2013-06-11T15:23:50" mDate="2013-06-11T15:23:50" loc="598 @ 5, 605 @ 5!">
+   <content size="15"><p>NO HOPE.</p></content>
+  </q>
+  <q name="a hero with severe (VA's words.." id="q2_6" au="Super" cDate="2013-06-11T15:24:37" mDate="2013-06-11T15:24:37" loc="38 @ 7, 318 @ 7!">
+   <content size="328"><p>a hero with severe (VA's words) HYPERLINK &quot;http://www.familyofavet.com/PTSD.html&quot; \t &quot;_blank&quot; PTSD and well as HYPERLINK &quot;http://www.familyofavet.com/TBI.html&quot; \t &quot;_blank&quot; Traumatic Brain Injury has been shuffled through FOUR different people to handle his psychiatric medications.</p></content>
+  </q>
+  <q name="For anyone, changing doctors c.." id="q2_7" au="Super" cDate="2013-06-11T15:24:58" mDate="2013-06-11T15:24:58" loc="320 @ 7, 515 @ 7!">
+   <content size="202"><p> For anyone, changing doctors constantly is at the very least uncomfortable... but for a Veteran who has to really, really, *REALLY* work at developing any sort of bond, it's almost catastrophic.</p></content>
+  </q>
+  <q name="We wait for months to get appo.." id="q2_8" au="Super" cDate="2013-06-11T15:25:41" mDate="2013-06-11T15:25:41" loc="1 @ 9, 616 @ 9!">
+   <content size="633"><p>We wait for months to get appointments, when we are able to get them they are often first thing in the morning (which, for those of you who don't live in our world of PTSD, TBI, and the related sleep issues, can present a monumental challenge) despite my continued pleas to make sure that he is scheduled no earlier than 11:00 am so that I, as his wife and caregiver, have the best possible chance of getting him there on a &quot;bad&quot; day, and then after seeing someone once or twice, without notice, explanation, or an opportunity to see the current physician a last time, we are unceremoniously swapped to someone else.</p></content>
+  </q>
+  <q name="We wait for months to get appo.." id="q2_9" au="Super" cDate="2013-06-11T15:26:30" mDate="2013-06-11T15:26:30" loc="1 @ 9, 615 @ 9!">
+   <content size="632"><p>We wait for months to get appointments, when we are able to get them they are often first thing in the morning (which, for those of you who don't live in our world of PTSD, TBI, and the related sleep issues, can present a monumental challenge) despite my continued pleas to make sure that he is scheduled no earlier than 11:00 am so that I, as his wife and caregiver, have the best possible chance of getting him there on a &quot;bad&quot; day, and then after seeing someone once or twice, without notice, explanation, or an opportunity to see the current physician a last time, we are unceremoniously swapped to someone else</p></content>
+  </q>
+  <q name="changing doctors constantly" id="q2_10" au="Super" cDate="2013-06-11T15:26:59" mDate="2013-06-11T15:26:59" loc="332 @ 7, 359 @ 7!">
+   <content size="35"><p> changing doctors constantly</p></content>
+  </q>
+  <q name="we are unceremoniously swapped.." id="q2_11" au="Super" cDate="2013-06-11T15:27:15" mDate="2013-06-11T15:27:15" loc="570 @ 9, 617 @ 9!">
+   <content size="54"><p>we are unceremoniously swapped to someone else.</p></content>
+  </q>
+  <q name="We wait for months to get appo.." id="q2_12" au="Super" cDate="2013-06-11T15:27:39" mDate="2013-06-11T15:27:39" loc="1 @ 9, 243 @ 9!">
+   <content size="250"><p>We wait for months to get appointments, when we are able to get them they are often first thing in the morning (which, for those of you who don't live in our world of PTSD, TBI, and the related sleep issues, can present a monumental challenge)</p></content>
+  </q>
+  <q name="His first psychiatrist in our .." id="q2_13" au="Super" cDate="2013-06-11T15:28:40" mDate="2013-06-11T15:28:40" loc="1 @ 11, 238 @ 11!">
+   <content size="248"><p>His first psychiatrist in our current VA system was actually good.  We saw her once a month.  She listened.  She didn't balk at my hubby's sarcasm and she sort of got our odd sense of humor (a coping skill we've developed over the years).</p></content>
+  </q>
+  <q name="We saw her once a month.  She .." id="q2_14" au="Super" cDate="2013-06-11T15:28:59" mDate="2013-06-11T15:28:59" loc="68 @ 11, 238 @ 11!">
+   <content size="180"><p> We saw her once a month.  She listened.  She didn't balk at my hubby's sarcasm and she sort of got our odd sense of humor (a coping skill we've developed over the years).</p></content>
+  </q>
+  <q name="His first psychiatrist in our .." id="q2_15" au="Super" cDate="2013-06-11T15:29:34" mDate="2013-06-11T15:29:34" loc="1 @ 11, 448 @ 11!">
+   <content size="464"><p>His first psychiatrist in our current VA system was actually good.  We saw her once a month.  She listened.  She didn't balk at my hubby's sarcasm and she sort of got our odd sense of humor (a coping skill we've developed over the years).  But, she was moved into the C&amp;P department.  That time, however, we did at least get one last appointment for her to explain to my husband what was happening (an ideal move in a less than ideal circumstance).</p></content>
+  </q>
+  <q name="Then, we were assigned to a ps.." id="q2_16" au="Super" cDate="2013-06-11T15:30:31" mDate="2013-06-11T15:30:31" loc="1 @ 13, 536 @ 13!">
+   <content size="554"><p>Then, we were assigned to a psychiatrist who barely spoke English.  I don't say that to be cruel, I mention that because it meant the two times we were able to see him (one time that he forgot to even put his notes in the system and my husband was recorded as a &quot;no show&quot; despite the fact that we'd spent 30 minutes in his office), the conversation was almost impossible.  It consisted of me explaining what medications we had tried, including some that had caused really *BAD* reactions, and then him re-prescribing those medications.</p></content>
+  </q>
+  <q name="Then, for a short time we were.." id="q2_17" au="Super" cDate="2013-06-11T15:31:28" mDate="2013-06-11T15:32:04" loc="1 @ 15, 446 @ 15!">
+   <content size="454"><p>Then, for a short time we were able to see the Nurse Practioner who does double-duty in our VA's TBI clinic and in the mental health clinic.  In many ways, this worked well because she's familiar to us (we see her quarterly in the TBI clinic), but in the State of Alabama she can't prescribe certain types of medications (including some of the hubby's sleep/anxiety stuff), so while she could help with some things, she couldn't cover everything.</p></content>
+  </q>
+  <q name="She also explained that in our.." id="q2_18" au="Super" cDate="2013-06-11T15:32:34" mDate="2013-06-11T15:32:34" loc="448 @ 15, 759 @ 15!">
+   <content size="329"><p> She also explained that in our VA it's not &quot;preferred&quot; for there to be a crossover between the two clinics (the same provider seeing a patient both places), though honestly that doesn't make a lot of sense to me... especially when you're dealing with Veterans who need consistency to a greater degree than most.</p></content>
+  </q>
+  <q name="This one, thankfully, was actu.." id="q2_19" au="Super" cDate="2013-06-11T15:33:37" mDate="2013-06-11T15:33:37" loc="56 @ 17, 479 @ 17!">
+   <content size="433"><p>This one, thankfully, was actually pretty good.  But, since our mental health clinic was short staffed by this point, it took 3 - 5 months to get appointments with her.  We had the first appointment, the next was scheduled for 8:00 am on what ended up being a horrible PTSD/TBI day and we had to cancel, that appointment was re-scheduled (almost 3 months later) for yesterday... and now we're back to the start of the story.</p></content>
+  </q>
+  <q name="So, then we got assigned to ye.." id="q2_20" au="Super" cDate="2013-06-11T15:33:54" mDate="2013-06-11T15:33:54" loc="1 @ 17, 104 @ 17!">
+   <content size="113"><p>So, then we got assigned to yet another psychiatrist.  This one, thankfully, was actually pretty good.  </p></content>
+  </q>
+  <q name="Honestly, in dealing with ANY .." id="q2_21" au="Super" cDate="2013-06-11T15:34:35" mDate="2013-06-11T15:34:36" loc="1 @ 19, 178 @ 19!">
+   <content size="185"><p>Honestly, in dealing with ANY hero... but especially when serving heroes with mental health problems... good old fashioned customer service should be the first order of business.</p></content>
+  </q>
+  <q name="If a provider is leaving or ch.." id="q2_22" au="Super" cDate="2013-06-11T15:35:15" mDate="2013-06-11T15:35:15" loc="4 @ 20, 183 @ 20!">
+   <content size="187"><p>If a provider is leaving or changing jobs, that provider should meet with patients at least once more to explain and if, at all possible, introduce the Veteran to the new provider.</p></content>
+  </q>
+  <q name="If there isn't time for a prov.." id="q2_23" au="Super" cDate="2013-06-11T15:35:49" mDate="2013-06-11T15:36:00" loc="4 @ 21, 223 @ 22!">
+   <content size="377"><p>If there isn't time for a provider to meet with patients, then someone else that Veteran is familiar with should be tasked to do that job.</p>
+<p>3.	Veterans should also be notified... not with just some computer generated form letter... but with a signed letter AND phone call explaining what is happening and what steps are being taken to ensure their continued care.</p></content>
+  </q>
+  <q name="When a provider leaves and a V.." id="q2_24" au="Super" cDate="2013-06-11T15:36:30" mDate="2013-06-11T15:36:30" loc="4 @ 23, 201 @ 23!">
+   <content size="205"><p>When a provider leaves and a Veteran already has an appointment scheduled, that Veteran should AUTOMATICALLY be assigned to a new provider and an appointment scheduled to prevent any lapses in care.</p></content>
+  </q>
+  <q name="So, we do have another appoint.." id="q2_25" au="Super" cDate="2013-06-11T15:38:02" mDate="2013-06-11T15:38:23" loc="1 @ 27, 177 @ 27!">
+   <content size="184"><p>So, we do have another appointment scheduled with yet another provider... a month away... more waiting... more hoping and praying for my hero and others like him not to give up.</p></content>
+  </q>
+  <q name="To put it simply, our heroes d.." id="q2_26" au="Super" cDate="2013-06-11T15:39:06" mDate="2013-06-11T15:39:07" loc="476 @ 27, 737 @ 27!">
+   <content size="270"><p> To put it simply, our heroes don't have years to wait for people to start getting this right.  By then, they will have lost hope in a system put in place to help them and we as caregivers will find it nearly impossible to get them to the resources they need.  </p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary11.rtf" id="pd_3" loc="doc_4" au="Super" cDate="2013-06-11T14:19:31" mDate="2013-06-11T14:19:31" qIndex="0" >
+ <quotations size="0" >
+ </quotations>
+ </primDoc>
+ <primDoc name="diary2.rtf" id="pd_4" loc="doc_9" au="Super" cDate="2013-06-11T14:19:31" mDate="2013-06-13T12:47:01" qIndex="7" >
+ <quotations size="6" >
+  <q name="He came home, however, a diffe.." id="q4_1" au="Super" cDate="2013-06-11T15:43:43" mDate="2013-06-11T15:43:43" loc="153 @ 6, 231 @ 6!">
+   <content size="86"><p>He came home, however, a different person with a child to raise on top of that.</p></content>
+  </q>
+  <q name="He was impatient, angry, and e.." id="q4_2" au="Super" cDate="2013-06-11T15:44:02" mDate="2013-06-11T15:44:02" loc="232 @ 6, 437 @ 6!">
+   <content size="215"><p> He was impatient, angry, and etc. Before, he was the kind of man that never yelled or raised his voice to me. He was soft, kind, and gentle. Don’t get me wrong, he is still that way but it comes in strives</p></content>
+  </q>
+  <q name="I had to move away from the on.." id="q4_3" au="Super" cDate="2013-06-11T15:52:12" mDate="2013-06-11T15:52:12" loc="588 @ 6, 996 @ 6!">
+   <content size="418"><p>I had to move away from the only home I had ever known - to a whole new area away from my family, friends, job, and college...to follow the man I loved...that in itself takes a lot of love, courage, and dedication. I have no regrets, don’t get me wrong, yet I feel like I do not get enough credit for the sacrifices I have made. I always hear of the sacrifices he has made for us, and believe me I know he has</p></content>
+  </q>
+  <q name="It is a tough spot to be in be.." id="q4_5" au="Super" cDate="2013-06-11T15:54:05" mDate="2013-06-11T15:54:05" loc="1 @ 9, 474 @ 9!">
+   <content size="482"><p>It is a tough spot to be in because you feel alone, you feel broken, frustrated, tired, and like you are drowning...you want to turn to your spouse, your partner,  love, and best friend, however, he cannot save you because he is trying to hold on to you because he is doing the same thing. So I have always put my emotions to the side, swallowed my pain and frustration and tended to him. However, I feel myself becoming unhealthy and I feel myself starting to lose my mind.</p></content>
+  </q>
+  <q name="I just do not know how much mo.." id="q4_6" au="Super" cDate="2013-06-11T15:54:30" mDate="2013-06-11T15:54:30" loc="475 @ 9, 1201 @ 9!">
+   <content size="733"><p> I just do not know how much more I can take of this and the sad part is I try to tell my husband this but he cannot hear me. I feel like I am screaming at the top of my lungs but no one can hear me. I am a strong women, that is no joke because I have been through so much and I am still pushing while everything is still getting in my way and trying to hold me back or down. However, I am starting to burn out and I am feeling myself starting to burn out mentally and physically. I just wish America knew that sacrifice that comes with their freedoms. I also wish my husband and everyone else could see and feel the pain I am going through. I am sorry this is a long story, but I had a lot to say and needed to get it out....</p></content>
+  </q>
+  <q name="I still do not think I get eno.." id="q4_7" au="Super" cDate="2013-06-13T12:46:33" mDate="2013-06-13T12:46:33" loc="1121 @ 6, 1213 @ 6!">
+   <content size="100"><p> I still do not think I get enough credit for the strength, sacrifice, and pain I go through.</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary3.rtf" id="pd_5" loc="doc_3" au="Super" cDate="2013-06-11T14:19:31" mDate="2013-06-11T14:19:31" qIndex="0" >
+ <quotations size="0" >
+ </quotations>
+ </primDoc>
+ <primDoc name="diary4.rtf" id="pd_6" loc="doc_8" au="Super" cDate="2013-06-11T14:19:31" mDate="2013-06-11T15:57:43" qIndex="2" >
+ <quotations size="2" >
+  <q name="Sadly that is just not the tru.." id="q6_1" au="Super" cDate="2013-06-11T15:57:06" mDate="2013-06-11T15:57:06" loc="326 @ 8, 572 @ 8!">
+   <content size="254"><p>Sadly that is just not the truth. Paul (Hubby) will never be able to just forget and move on from watching his best friend burn to death. Those smells and sounds will forever be burned into his memory. Why is that so hard for people to understand?</p></content>
+  </q>
+  <q name="Just getting out of bed each d.." id="q6_2" au="Super" cDate="2013-06-11T15:57:43" mDate="2013-06-11T15:57:55" loc="299 @ 10, 351 @ 10!">
+   <content size="60"><p> Just getting out of bed each day can be a challenge.</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary5.rtf" id="pd_7" loc="doc_6" au="Super" cDate="2013-06-11T14:19:32" mDate="2013-06-11T14:19:32" qIndex="0" >
+ <quotations size="0" >
+ </quotations>
+ </primDoc>
+ <primDoc name="diary6.rtf" id="pd_8" loc="doc_1" au="Super" cDate="2013-06-11T14:19:32" mDate="2013-06-11T16:05:37" qIndex="6" >
+ <quotations size="6" >
+  <q name="My dear hubby gets physically .." id="q8_1" au="Super" cDate="2013-06-11T16:00:11" mDate="2013-06-11T16:00:11" loc="234 @ 11, 312 @ 11!">
+   <content size="87"><p>My dear hubby gets physically ill when we get more than 30 minutes from home.  </p></content>
+  </q>
+  <q name="new &quot;adventures&quot; are soooooooo.." id="q8_2" au="Super" cDate="2013-06-11T16:00:54" mDate="2013-06-11T16:00:54" loc="372 @ 11, 574 @ 11!">
+   <content size="221"><p>new &quot;adventures&quot; are sooooooooo not welcomed.  The triggers they bring are just so costly - seriously the recovery from those moments can take our family weeks or months before things start to calm down.</p></content>
+  </q>
+  <q name="she's seven and so much of her.." id="q8_3" au="Super" cDate="2013-06-11T16:01:45" mDate="2013-06-11T16:01:45" loc="6 @ 13, 187 @ 13!">
+   <content size="209"><p> she's seven and so much of her childhood is &quot;challenging&quot; because of our journey with PTSD and TBI and there are sooooooo many times when &quot;normal&quot; stuff just isn't even on the radar</p></content>
+  </q>
+  <q name="When we arrived at the rental .." id="q8_4" au="Super" cDate="2013-06-11T16:03:49" mDate="2013-06-11T16:03:49" loc="1 @ 25, 781 @ 25!">
+   <content size="804"><p>When we arrived at the rental car place we were given a 2013 GMC Acadia SLT.  Now, I'm being specific (again, this is nooooot a paid infomercial!!) because, simply, it was so incredibly perfect.  So, perfect in fact that I've spent the last week trying to figure out how long we'd have to save (and how many years we'd need to let new models come out and thus bring down the price) to eventually get one.  Why?  Because it's a PTSD / TBI / traveling with a service dog / kiddo with Sensory Processing Disorder / prevention of disasters / overworked caregiver's *dream*.  If I could talk GMC into doing some sort of program to make purchases easier / more possible for those of us in &quot;Veteran world&quot; I would do it in a heartbeat!  Seriously, best vehicle ever.  Seriously. Oh my :)</p></content>
+  </q>
+  <q name="extreme heat sensitivity issue.." id="q8_5" au="Super" cDate="2013-06-11T16:04:19" mDate="2013-06-11T16:04:19" loc="50 @ 27, 103 @ 27!">
+   <content size="61"><p>extreme heat sensitivity issues thanks to TBI and Iraq</p></content>
+  </q>
+  <q name="Our daughter *LOVES* to talk a.." id="q8_6" au="Super" cDate="2013-06-11T16:05:37" mDate="2013-06-11T16:05:37" loc="156 @ 31, 461 @ 31!">
+   <content size="314"><p>Our daughter *LOVES* to talk and because of the auditory part of her Sensory Processing Disorder (SPD), often talks *REALLLLLLY* loud.  The hubby (refer above, often has a hard time leaving the house at all, so once he's in the car is in PTSD/TBI overload mode) very quickly looses patience with the noise.</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary7.rtf" id="pd_9" loc="doc_7" au="Super" cDate="2013-06-11T14:19:32" mDate="2013-06-11T16:40:00" qIndex="19" >
+ <quotations size="19" >
+  <q name="I unwittingly clutch at a prof.." id="q9_1" au="Super" cDate="2013-06-11T16:07:22" mDate="2013-06-11T16:07:22" loc="319 @ 3, 419 @ 3!">
+   <content size="108"><p>I unwittingly clutch at a profound loneliness as I avoid searching for memories of my youthful years.</p></content>
+  </q>
+  <q name="If I dare to gaze into my past.." id="q9_2" au="Super" cDate="2013-06-11T16:07:43" mDate="2013-06-11T16:07:43" loc="421 @ 3, 545 @ 3!">
+   <content size="132"><p>If I dare to gaze into my past, I must transcend a cloak of darkness weaved to restrain the demons from so many years before.</p></content>
+  </q>
+  <q name="As friends and family gather t.." id="q9_3" au="Super" cDate="2013-06-11T16:08:02" mDate="2013-06-11T16:08:02" loc="1 @ 3, 419 @ 3!">
+   <content size="426"><p>As friends and family gather to celebrate another joyful holiday, I am often disheartened, reminded by vivid memories of lost friendships and battlefield carnage that erratically seeps from a vulnerable partition of my mind. The cerebral hiding place I concocted, decades before, as a mechanism to survive in society. I unwittingly clutch at a profound loneliness as I avoid searching for memories of my youthful years.</p></content>
+  </q>
+  <q name="herded us to the barracks for .." id="q9_4" au="Super" cDate="2013-06-11T16:16:50" mDate="2013-06-11T16:16:50" loc="485 @ 6, 530 @ 6!">
+   <content size="53"><p>herded us to the barracks for a night of hell!</p></content>
+  </q>
+  <q name="Following what we thought woul.." id="q9_5" au="Super" cDate="2013-06-11T16:17:12" mDate="2013-06-11T16:17:12" loc="84 @ 10, 313 @ 10!">
+   <content size="241"><p>Following what we thought would be sleep (but was actually a nap), we awoke in awe to explosive clamor, as the DIs banged on tin garbage can lids next to our bunks, yelling ‘get up you maggots.’ Even the largest recruits trembled.</p></content>
+  </q>
+  <q name="Crammed into the bowels of Nav.." id="q9_6" au="Super" cDate="2013-06-11T16:18:24" mDate="2013-06-11T16:18:24" loc="211 @ 19, 345 @ 19!">
+   <content size="144"><p> Crammed into the bowels of Navy Carrier Ships, we slept in hammocks with no more than three inches from your brother’s butt above you.</p></content>
+  </q>
+  <q name="for what was going on in my mi.." id="q9_7" au="Super" cDate="2013-06-11T16:21:15" mDate="2013-06-11T16:21:15" loc="521 @ 134, 577 @ 134!">
+   <content size="64"><p>for what was going on in my mind, was a weakness in a man</p></content>
+  </q>
+  <q name="I was youthful and confident i.." id="q9_8" au="Super" cDate="2013-06-11T16:22:29" mDate="2013-06-11T16:22:29" loc="173 @ 142, 598 @ 142!">
+   <content size="433"><p> I was youthful and confident in myself. I had no clue what depression and anxiety were, and I thought the nightmares were personal and temporary. I was determined to look forward, and in no way backwards to the war. Unfortunately, today I realize that while constantly looking forward helped me avoid chaotic memories of war, it also cloaked the memories of my formative younger years, and positive events throughout my life.</p></content>
+  </q>
+  <q name="Feeling extremely frustrated w.." id="q9_9" au="Super" cDate="2013-06-11T16:23:48" mDate="2013-06-11T16:23:48" loc="1 @ 145, 376 @ 145!">
+   <content size="383"><p>Feeling extremely frustrated within the environment of civilian life, I was ready to head back to the military. However, before reenlistment happened, I got married to my current wife of 40 plus years, who will be the first to tell you living with a type-A personality with PTSD is often a living hell, especially since she had no idea what I was battling. But, neither did I.</p></content>
+  </q>
+  <q name="I began to realize boredom and.." id="q9_10" au="Super" cDate="2013-06-11T16:33:39" mDate="2013-06-11T16:33:39" loc="146 @ 149, 319 @ 149!">
+   <content size="181"><p> I began to realize boredom and repetition were major catalysts for my emotional setbacks; having too much time to think was a recipe for falling hard into the bowels of PTSD</p></content>
+  </q>
+  <q name="As years passed, anger, frustr.." id="q9_11" au="Super" cDate="2013-06-11T16:34:06" mDate="2013-06-11T16:34:07" loc="1 @ 150, 318 @ 150!">
+   <content size="325"><p>As years passed, anger, frustrations, mood swings, and depression were common events affecting me, my family and career. I stopped moving forward, and spent more time battling the memories of the past. It was at that time I understood the demons never leave; they simply wait for a sliver of weakness to overwhelm you.</p></content>
+  </q>
+  <q name="Consequently, these conditions.." id="q9_12" au="Super" cDate="2013-06-11T16:34:38" mDate="2013-06-11T16:34:38" loc="1 @ 151, 209 @ 151!">
+   <content size="217"><p>Consequently, these conditions, as well as heightened road-rage, quick to anger, and sometimes not able to carry on an articulate conversation, I unenthusiastically retired early from my very well-paying job. </p></content>
+  </q>
+  <q name="The demons continue to haunt m.." id="q9_13" au="Super" cDate="2013-06-11T16:35:23" mDate="2013-06-11T16:35:23" loc="158 @ 152, 265 @ 152!">
+   <content size="115"><p>The demons continue to haunt me with nightmares, depression, memory loss, anxiety and the need for solitude.</p></content>
+  </q>
+  <q name="Although I am not able to sit .." id="q9_14" au="Super" cDate="2013-06-11T16:35:59" mDate="2013-06-11T16:35:59" loc="1 @ 153, 551 @ 153!">
+   <content size="578"><p>Although I am not able to sit down with a vet and talk about war, I have taken on a cause through writing stories, to reach out to young and senior veterans to help break the stigma of PTSD, by seeking reinforcement. It took me, with present-day support from younger vets at the Journal of Military Experience [HYPERLINK &quot;http://militaryexperience.org/&quot; \t &quot;_blank&quot; http://militaryexperience.org], over the course of six years to finalize this story. I mention this so others can move forward in his or her life; by knowing what I and others know now.</p></content>
+  </q>
+  <q name="Unless you are in a high-risk .." id="q9_15" au="Super" cDate="2013-06-11T16:36:34" mDate="2013-06-11T16:36:34" loc="20 @ 157, 298 @ 157!">
+   <content size="286"><p>Unless you are in a high-risk job, you will probably not experience the adrenaline rush and finality of your decisions as you did in combat. For me, I lived by playing business games - never finding the ultimate adrenaline rush again. It is a void within me, I think about often.</p></content>
+  </q>
+  <q name=" The longer you wait for treat.." id="q9_16" au="Super" cDate="2013-06-11T16:37:29" mDate="2013-06-11T16:37:29" loc="19 @ 158, 163 @ 158!">
+   <content size="153"><p> The longer you wait for treatment, the harder it will be to handle the demons. They do not go away and can lay dormant in your soul for decades.</p></content>
+  </q>
+  <q name=" If you do not want to speak a.." id="q9_17" au="Super" cDate="2013-06-11T16:38:08" mDate="2013-06-11T16:38:08" loc="19 @ 160, 423 @ 160!">
+   <content size="417"><p> If you do not want to speak about PTSD with your family or friends, then hand them a brochure from the VA that explains what to look for, and why you need their support. You do not have to go into detail about the tragedies of war, but without your loved ones’ understanding of your internal battle, your thoughts can lead to divorce, loss of family relationship, or suicide – a terrible waste of a hero.</p></content>
+  </q>
+  <q name=" Silence and solitude is not t.." id="q9_18" au="Super" cDate="2013-06-11T16:38:45" mDate="2013-06-11T16:38:45" loc="19 @ 161, 113 @ 161!">
+   <content size="103"><p> Silence and solitude is not the answer! If you have PTSD you may not be able to beat it alone.</p></content>
+  </q>
+  <q name="ego and macho image" id="q9_19" au="Super" cDate="2013-06-11T16:40:00" mDate="2013-06-11T16:40:00" loc="19 @ 167, 37 @ 167!">
+   <content size="26"><p>ego and macho image</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary8.rtf" id="pd_10" loc="doc_2" au="Super" cDate="2013-06-11T14:19:32" mDate="2013-06-11T16:57:36" qIndex="18" >
+ <quotations size="18" >
+  <q name="My friend, a woman who lives s.." id="q10_1" au="Super" cDate="2013-06-11T16:42:00" mDate="2013-06-11T16:42:00" loc="216 @ 5, 741 @ 5!">
+   <content size="534"><p>My friend, a woman who lives states away and is also a caregiver, is absurdly well versed in this life after combat stuff.  She sees my family from afar, yet is able to intimately and with marksman like accuracy, is able to anticipate needs and identify trouble spots. More importantly, she had a real world solution for my family that was implemented within days of identifying the stuck point and made sure to follow up with me by phone calls, texts, and even a Google Hangout session involving both myself, AND my husband. </p></content>
+  </q>
+  <q name="I have found myself often stan.." id="q10_2" au="Super" cDate="2013-06-11T16:44:15" mDate="2013-06-11T16:44:15" loc="41 @ 7, 139 @ 7!">
+   <content size="106"><p> I have found myself often standing in my kitchen, or living room in a daze, overwhelmed, exhausted</p></content>
+  </q>
+  <q name=" I was not adjusting as well a.." id="q10_3" au="Super" cDate="2013-06-11T16:44:54" mDate="2013-06-11T16:44:54" loc="142 @ 7, 472 @ 7!">
+   <content size="340"><p> I was not adjusting as well as I wanted to being at home full time for my husband.  Everyone else around me seemed to be status quo, either no improvement (in husband- well, some....lets be optimistic), or vast improvement (kids not having to deal with overwhelmed, can't-process-the-movement, or I-don't-get-what-you-want daddy).</p></content>
+  </q>
+  <q name=" I was beginning to lose hope..." id="q10_4" au="Super" cDate="2013-06-11T16:45:19" mDate="2013-06-11T16:45:19" loc="728 @ 7, 757 @ 7!">
+   <content size="38"><p> I was beginning to lose hope.</p></content>
+  </q>
+  <q name="One thing I noticed was things.." id="q10_5" au="Super" cDate="2013-06-11T16:45:59" mDate="2013-06-11T16:45:59" loc="1 @ 9, 625 @ 9!">
+   <content size="637"><p>One thing I noticed was things started to pile up in the hutch.  Charing cords, crayons, books, papers, pictures.... Whatever needed to be stashed quick so the kids didn't monkey with, went into this big black hutch in our kitchen.  Something in my home didn't feel right.  It didn't flow.  In fact, visual clutter disturbs and agitates my husband, so that is why the quick tuck it away habit became routine.  I was starting to feel like my home was not reflecting our personality as a family, and it was beginning to wear on me.  It was no longer feeling like home, and here I am, now home full time, not understanding why.</p></content>
+  </q>
+  <q name="Mission Control
+
+Instead of us.." id="q10_6" au="Super" cDate="2013-06-11T16:47:07" mDate="2013-06-11T16:47:07" loc="1 @ 13, 307 @ 15!">
+   <content size="345"><p>Mission Control</p>
+<p/>
+<p>Instead of using the hideous wall calendar taped to our cupboard, we found a super cheap way to use aesthetically pleasing arrangement of frames as white boards for the days of the week.  Here is a picture of the Husband approved (which means it doesn't annoy him, he LIKES it, and.... he LOOKS at it) area.</p></content>
+  </q>
+  <q name="The man who came home from tha.." id="q10_7" au="Super" cDate="2013-06-11T16:49:06" mDate="2013-06-11T16:49:06" loc="1 @ 44, 375 @ 44!">
+   <content size="382"><p>The man who came home from that deployment was not the one I sent off to war. Before the deployment, I had a loving, caring and attentive husband. After, I had a husband who was paranoid and full of rage. Before, I never knew my husband to have a headache. After, he had headaches so bad he would almost drop to his knees. Crowds made him nervous and he often had nightmares.</p></content>
+  </q>
+  <q name="Before, I never knew my husban.." id="q10_8" au="Super" cDate="2013-06-11T16:49:35" mDate="2013-06-13T12:30:57" loc="206 @ 44, 321 @ 44!">
+   <content size="123"><p>Before, I never knew my husband to have a headache. After, he had headaches so bad he would almost drop to his knees</p></content>
+  </q>
+  <q name="he often had nightmares." id="q10_9" au="Super" cDate="2013-06-11T16:49:51" mDate="2013-06-11T16:49:51" loc="352 @ 44, 375 @ 44!">
+   <content size="31"><p>he often had nightmares.</p></content>
+  </q>
+  <q name="He also did things that reveal.." id="q10_10" au="Super" cDate="2013-06-11T16:50:54" mDate="2013-06-11T16:50:54" loc="1 @ 46, 72 @ 46!">
+   <content size="79"><p>He also did things that revealed he was struggling with impulse control.</p></content>
+  </q>
+  <q name=". I'm not a doctor or psycholo.." id="q10_11" au="Super" cDate="2013-06-11T16:51:45" mDate="2013-06-11T16:51:45" loc="427 @ 48, 584 @ 48!">
+   <content size="165"><p>. I'm not a doctor or psychologist, but I think he buries himself in his work so he doesn't have to deal with or think about what is causing his anger issues.</p></content>
+  </q>
+  <q name="faith in God" id="q10_12" au="Super" cDate="2013-06-11T16:53:02" mDate="2013-06-11T16:53:02" loc="22 @ 50, 33 @ 50!">
+   <content size="19"><p>faith in God</p></content>
+  </q>
+  <q name="My husband, or the man the mil.." id="q10_13" au="Super" cDate="2013-06-11T16:53:49" mDate="2013-06-11T16:53:49" loc="596 @ 50, 696 @ 50!">
+   <content size="108"><p> My husband, or the man the military sent home to me after the deployment, became emotionally abusive</p></content>
+  </q>
+  <q name="After hours upon hours of pray.." id="q10_14" au="Super" cDate="2013-06-11T16:54:49" mDate="2013-06-11T16:54:49" loc="144 @ 52, 455 @ 52!">
+   <content size="329"><p>After hours upon hours of prayer; after struggling with my faith at times; after feeling like God had abandoned me and my marriage; I came to the realization that God was giving me insight that needs to be shared. By doing so, I believe He will help me to continue to heal from the horrors of &quot;this war at home.&quot;</p></content>
+  </q>
+  <q name="This is a difficult topic to w.." id="q10_15" au="Super" cDate="2013-06-11T16:55:24" mDate="2013-06-11T16:55:24" loc="1 @ 54, 137 @ 54!">
+   <content size="144"><p>This is a difficult topic to write about because there is shame attached to it. This shame causes many to remain silent and suffer alone.</p></content>
+  </q>
+  <q name="I refuse to become  a statisti.." id="q10_16" au="Super" cDate="2013-06-11T16:56:32" mDate="2013-06-11T16:56:32" loc="63 @ 55, 188 @ 55!">
+   <content size="135"><p> I refuse to become  a statistic of combat related PTSD and domestic abuse. I refuse to allow people to shame me into silence.</p></content>
+  </q>
+  <q name="I know I am not the only one s.." id="q10_17" au="Super" cDate="2013-06-11T16:56:58" mDate="2013-06-11T16:56:58" loc="59 @ 57, 181 @ 57!">
+   <content size="130"><p> I know I am not the only one struggling to get some help for a husband who came back from war an entirely different person</p></content>
+  </q>
+  <q name="I know I am not the only one w.." id="q10_18" au="Super" cDate="2013-06-11T16:57:36" mDate="2013-06-11T16:57:36" loc="183 @ 57, 238 @ 57!">
+   <content size="63"><p> I know I am not the only one who has a need to be heard</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+ <primDoc name="diary9.rtf" id="pd_11" loc="doc_11" au="Super" cDate="2013-06-11T14:19:33" mDate="2013-06-11T17:01:54" qIndex="5" >
+ <quotations size="5" >
+  <q name="I fight until I am broken." id="q11_1" au="Super" cDate="2013-06-11T16:58:48" mDate="2013-06-11T16:58:48" loc="701 @ 2, 727 @ 2!">
+   <content size="34"><p> I fight until I am broken.</p></content>
+  </q>
+  <q name="  I fight until I am broken.  .." id="q11_2" au="Super" cDate="2013-06-11T16:59:11" mDate="2013-06-11T16:59:11" loc="700 @ 2, 896 @ 2!">
+   <content size="216"><p>  I fight until I am broken.  I fight till I am giving in to the rage.  I fight for YOU to do what is right, so that YOU can save face and blame it on yet another &quot;maniacal caregiver/mother/wife&quot;.</p></content>
+  </q>
+  <q name="I sang to him.  I sang every d.." id="q11_3" au="Super" cDate="2013-06-11T17:00:09" mDate="2013-06-11T17:00:09" loc="237 @ 4, 456 @ 4!">
+   <content size="228"><p> I sang to him.  I sang every damn 60 and 70s rock I could think of, and guess what folks, I brought a smile to him with my air guitar and voice.... all the while balancing cocktails of pills that were to HELP, not hurt.</p></content>
+  </q>
+  <q name="If you are here to fight this .." id="q11_4" au="Super" cDate="2013-06-11T17:00:38" mDate="2013-06-11T17:00:38" loc="80 @ 6, 164 @ 6!">
+   <content size="92"><p> If you are here to fight this epidemic of suicides then welcome, I fight beside you.</p></content>
+  </q>
+  <q name="The VA has a funny way of sayi.." id="q11_5" au="Super" cDate="2013-06-11T17:01:54" mDate="2013-06-11T17:01:54" loc="1 @ 23, 244 @ 23!">
+   <content size="281"><p>The VA has a funny way of saying, &quot;You are enabling this&quot; &quot;you are making him dependent on you&quot; &quot;You are treating him like a baby....&quot; Well, dears, I don't know how you raised YOUR babies, but I do NOT treat 2 year olds like I treat my husband.</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+</primDocs>
+<codes size="34" >
+ <code name="appointments" id="co_12" au="Super" cDate="2013-06-11T15:26:30" mDate="2013-06-13T12:32:07" color="" cCount="0" qCount="5" />
+ <code name="believe in  healthcare provider" id="co_13" au="Super" cDate="2013-06-11T14:30:50" mDate="2013-06-13T12:17:38" color="" cCount="0" qCount="4" />
+ <code name="cg: depression" id="co_14" au="Super" cDate="2013-06-11T15:54:05" mDate="2013-06-13T12:43:55" color="" cCount="0" qCount="6" />
+ <code name="cg: faith in god" id="co_15" au="Super" cDate="2013-06-11T16:53:02" mDate="2013-06-13T12:02:56" color="" cCount="0" qCount="2" />
+ <code name="cg: familylife (negative)" id="co_16" au="Super" cDate="2013-06-11T14:29:00" mDate="2013-06-13T12:18:06" color="" cCount="0" qCount="7" />
+ <code name="cg: familylife (positive)" id="co_17" au="Super" cDate="2013-06-11T16:03:49" mDate="2013-06-13T12:15:19" color="" cCount="0" qCount="1" />
+ <code name="cg: hope" id="co_18" au="Super" cDate="2013-06-11T14:32:32" mDate="2013-06-13T12:03:21" color="" cCount="0" qCount="2" />
+ <code name="cg: loneliness" id="co_19" au="Super" cDate="2013-06-11T16:07:22" mDate="2013-06-13T12:38:35" color="" cCount="0" qCount="1" />
+ <code name="cg: positive help" id="co_20" au="Super" cDate="2013-06-11T16:42:00" mDate="2013-06-13T12:03:13" color="" cCount="0" qCount="4" />
+ <code name="cg: sacrifice" id="co_21" au="Super" cDate="2013-06-11T15:52:12" mDate="2013-06-13T12:48:00" color="" cCount="0" qCount="4" />
+ <code name="cg: shame" id="co_22" au="Super" cDate="2013-06-11T16:55:24" mDate="2013-06-13T12:43:45" color="" cCount="0" qCount="2" />
+ <code name="cg: wishes" id="co_23" au="Super" cDate="2013-06-11T14:33:00" mDate="2013-06-13T12:48:54" color="" cCount="0" qCount="5" />
+ <code name="constant change of healthcare provider" id="co_24" au="Super" cDate="2013-06-11T15:26:59" mDate="2013-06-13T12:35:19" color="" cCount="0" qCount="6" />
+ <code name="fight" id="co_25" au="Super" cDate="2013-06-11T15:23:30" mDate="2013-06-13T12:35:11" color="" cCount="0" qCount="3" />
+ <code name="frustration with healthcare provider" id="co_26" au="Super" cDate="2013-06-11T14:27:36" mDate="2013-06-13T12:17:12" color="" cCount="0" qCount="16" />
+ <code name="psychiatrist (positive)" id="co_27" au="Super" cDate="2013-06-11T15:28:40" mDate="2013-06-13T12:36:54" color="" cCount="0" qCount="1" />
+ <code name="v: anger" id="co_28" au="Super" cDate="2013-06-11T14:29:16" mDate="2013-06-13T12:43:02" color="" cCount="0" qCount="4" />
+ <code name="v: changed" id="co_29" au="Super" cDate="2013-06-11T14:23:57" mDate="2013-06-13T12:51:26" color="" cCount="0" qCount="6" />
+ <code name="v: depression" id="co_30" au="Super" cDate="2013-06-11T14:41:13" mDate="2013-06-13T12:43:16" color="" cCount="0" qCount="5" />
+ <code name="v: help (nagtive)" id="co_31" au="Super" cDate="2013-06-11T14:28:41" mDate="2013-06-13T12:52:04" color="" cCount="0" qCount="1" />
+ <code name="v: help (positive)" id="co_32" au="Super" cDate="2013-06-11T15:17:09" mDate="2013-06-13T12:37:04" color="" cCount="0" qCount="6" />
+ <code name="v: ignorance" id="co_33" au="Super" cDate="2013-06-11T14:31:52" mDate="2013-06-13T12:19:35" color="" cCount="0" qCount="4" />
+ <code name="v: injury" id="co_34" au="Super" cDate="2013-06-11T14:22:39" mDate="2013-06-13T12:19:42" color="" cCount="0" qCount="1" />
+ <code name="v: loneliness" id="co_35" au="Super" cDate="2013-06-11T15:23:30" mDate="2013-06-13T12:42:21" color="" cCount="0" qCount="3" />
+ <code name="v: medication" id="co_36" au="Super" cDate="2013-06-11T15:09:44" mDate="2013-06-13T12:20:07" color="" cCount="0" qCount="2" />
+ <code name="v: neglection" id="co_37" au="Super" cDate="2013-06-11T15:09:18" mDate="2013-06-13T12:20:16" color="" cCount="0" qCount="1" />
+ <code name="v: other mental conditions" id="co_38" au="Super" cDate="2013-06-11T14:25:25" mDate="2013-06-13T12:29:43" color="" cCount="0" qCount="10" />
+ <code name="v: other physical conditions" id="co_39" au="Super" cDate="2013-06-11T14:32:16" mDate="2013-06-13T12:29:28" color="" cCount="0" qCount="6" />
+ <code name="v: pain" id="co_40" au="Super" cDate="2013-06-13T12:27:40" mDate="2013-06-13T12:42:11" color="" cCount="0" qCount="3" />
+ <code name="v: rejection" id="co_41" au="Super" cDate="2013-06-11T14:30:16" mDate="2013-06-13T12:20:25" color="" cCount="0" qCount="4" />
+ <code name="v: sleep" id="co_42" au="Super" cDate="2013-06-11T14:22:12" mDate="2013-06-13T12:20:33" color="" cCount="0" qCount="5" />
+ <code name="v: sleep during war" id="co_43" au="Super" cDate="2013-06-11T16:16:50" mDate="2013-06-13T12:20:45" color="" cCount="0" qCount="3" />
+ <code name="v: suicide" id="co_44" au="Super" cDate="2013-06-11T14:29:59" mDate="2013-06-13T12:31:50" color="" cCount="0" qCount="5" />
+ <code name="v: trauma" id="co_45" au="Super" cDate="2013-06-11T15:57:06" mDate="2013-06-13T12:21:30" color="" cCount="0" qCount="1" />
+</codes>
+<superCodes size="0" >
+</superCodes>
+<memos size="0" >
+</memos>
+<families>
+<codeFamilies size="9" >
+  <codeFamily name="cg: conditions" id="cf_1" au="Super" cDate="2013-06-12T17:02:38" mDate="2013-06-13T12:38:39" >
+   <item id="co_14"/>
+   <item id="co_19"/>
+   <item id="co_22"/>
+  </codeFamily>
+  <codeFamily name="cg: context (negative)" id="cf_2" au="Super" cDate="2013-06-12T16:57:07" mDate="2013-06-13T12:50:49" >
+   <item id="co_12"/>
+   <item id="co_16"/>
+   <item id="co_21"/>
+   <item id="co_24"/>
+   <item id="co_25"/>
+   <item id="co_28"/>
+   <item id="co_29"/>
+   <item id="co_30"/>
+  </codeFamily>
+  <codeFamily name="cg: context (positive)" id="cf_3" au="Super" cDate="2013-06-12T16:59:16" mDate="2013-06-13T12:48:54" >
+   <item id="co_15"/>
+   <item id="co_17"/>
+   <item id="co_18"/>
+   <item id="co_20"/>
+   <item id="co_23"/>
+  </codeFamily>
+  <codeFamily name="consequences (negative)" id="cf_4" au="Super" cDate="2013-06-12T17:00:58" mDate="2013-06-13T12:31:59" >
+   <item id="co_26"/>
+   <item id="co_44"/>
+  </codeFamily>
+  <codeFamily name="consequences (positive)" id="cf_5" au="Super" cDate="2013-06-12T17:00:46" mDate="2013-06-13T12:11:57" >
+   <item id="co_13"/>
+  </codeFamily>
+  <codeFamily name="v: causes" id="cf_6" au="Super" cDate="2013-06-12T17:01:56" mDate="2013-06-13T12:09:18" >
+   <item id="co_34"/>
+   <item id="co_43"/>
+   <item id="co_45"/>
+  </codeFamily>
+  <codeFamily name="v: conditions" id="cf_7" au="Super" cDate="2013-06-12T17:02:21" mDate="2013-06-13T12:51:26" >
+   <item id="co_28"/>
+   <item id="co_29"/>
+   <item id="co_30"/>
+   <item id="co_35"/>
+   <item id="co_38"/>
+   <item id="co_39"/>
+   <item id="co_40"/>
+   <item id="co_42"/>
+  </codeFamily>
+  <codeFamily name="v: context (negative)" id="cf_8" au="Super" cDate="2013-06-12T17:05:57" mDate="2013-06-13T12:52:04" >
+   <item id="co_14"/>
+   <item id="co_22"/>
+   <item id="co_31"/>
+   <item id="co_33"/>
+   <item id="co_36"/>
+   <item id="co_37"/>
+   <item id="co_41"/>
+  </codeFamily>
+  <codeFamily name="v: context (positive)" id="cf_9" au="Super" cDate="2013-06-13T12:35:51" mDate="2013-06-13T12:37:04" >
+   <item id="co_27"/>
+   <item id="co_32"/>
+  </codeFamily>
+</codeFamilies>
+<superCodeFamilies size="0" >
+</superCodeFamilies>
+<memoFamilies size="0" >
+</memoFamilies>
+<superMemoFamilies size="0" >
+</superMemoFamilies>
+<primDocFamilies size="0" >
+</primDocFamilies>
+<superPrimDocFamilies size="0" >
+</superPrimDocFamilies>
+</families>
+<netViews size="0" >
+</netViews>
+<links>
+<objectSegmentLinks>
+  <codings size="139" >
+   <iLink obj="co_12" qRef="q2_9" />
+   <iLink obj="co_12" qRef="q2_19" />
+   <iLink obj="co_12" qRef="q2_24" />
+   <iLink obj="co_12" qRef="q2_25" />
+   <iLink obj="co_12" qRef="q2_26" />
+   <iLink obj="co_13" qRef="q1_5" />
+   <iLink obj="co_13" qRef="q1_12" />
+   <iLink obj="co_13" qRef="q1_26" />
+   <iLink obj="co_13" qRef="q2_17" />
+   <iLink obj="co_14" qRef="q4_5" />
+   <iLink obj="co_14" qRef="q4_6" />
+   <iLink obj="co_14" qRef="q9_2" />
+   <iLink obj="co_14" qRef="q10_4" />
+   <iLink obj="co_14" qRef="q11_1" />
+   <iLink obj="co_14" qRef="q11_3" />
+   <iLink obj="co_15" qRef="q10_12" />
+   <iLink obj="co_15" qRef="q10_14" />
+   <iLink obj="co_16" qRef="q1_19" />
+   <iLink obj="co_16" qRef="q1_31" />
+   <iLink obj="co_16" qRef="q8_3" />
+   <iLink obj="co_16" qRef="q8_6" />
+   <iLink obj="co_16" qRef="q10_2" />
+   <iLink obj="co_16" qRef="q10_3" />
+   <iLink obj="co_16" qRef="q10_5" />
+   <iLink obj="co_17" qRef="q8_4" />
+   <iLink obj="co_18" qRef="q1_32" />
+   <iLink obj="co_18" qRef="q2_25" />
+   <iLink obj="co_19" qRef="q9_1" />
+   <iLink obj="co_20" qRef="q10_1" />
+   <iLink obj="co_20" qRef="q10_6" />
+   <iLink obj="co_20" qRef="q10_18" />
+   <iLink obj="co_20" qRef="q11_3" />
+   <iLink obj="co_21" qRef="q4_3" />
+   <iLink obj="co_21" qRef="q4_7" />
+   <iLink obj="co_21" qRef="q8_3" />
+   <iLink obj="co_21" qRef="q9_3" />
+   <iLink obj="co_22" qRef="q10_15" />
+   <iLink obj="co_22" qRef="q10_16" />
+   <iLink obj="co_23" qRef="q1_33" />
+   <iLink obj="co_23" qRef="q2_21" />
+   <iLink obj="co_23" qRef="q2_23" />
+   <iLink obj="co_23" qRef="q2_24" />
+   <iLink obj="co_23" qRef="q2_25" />
+   <iLink obj="co_24" qRef="q2_10" />
+   <iLink obj="co_24" qRef="q2_11" />
+   <iLink obj="co_24" qRef="q2_15" />
+   <iLink obj="co_24" qRef="q2_20" />
+   <iLink obj="co_24" qRef="q2_22" />
+   <iLink obj="co_24" qRef="q2_23" />
+   <iLink obj="co_25" qRef="q2_4" />
+   <iLink obj="co_25" qRef="q11_2" />
+   <iLink obj="co_25" qRef="q11_4" />
+   <iLink obj="co_26" qRef="q1_5" />
+   <iLink obj="co_26" qRef="q1_12" />
+   <iLink obj="co_26" qRef="q1_14" />
+   <iLink obj="co_26" qRef="q2_1" />
+   <iLink obj="co_26" qRef="q2_2" />
+   <iLink obj="co_26" qRef="q2_6" />
+   <iLink obj="co_26" qRef="q2_7" />
+   <iLink obj="co_26" qRef="q2_8" />
+   <iLink obj="co_26" qRef="q2_16" />
+   <iLink obj="co_26" qRef="q2_17" />
+   <iLink obj="co_26" qRef="q2_18" />
+   <iLink obj="co_26" qRef="q2_19" />
+   <iLink obj="co_26" qRef="q2_22" />
+   <iLink obj="co_26" qRef="q2_23" />
+   <iLink obj="co_26" qRef="q2_26" />
+   <iLink obj="co_26" qRef="q11_5" />
+   <iLink obj="co_27" qRef="q2_13" />
+   <iLink obj="co_28" qRef="q1_20" />
+   <iLink obj="co_28" qRef="q9_12" />
+   <iLink obj="co_28" qRef="q10_10" />
+   <iLink obj="co_28" qRef="q10_11" />
+   <iLink obj="co_29" qRef="q1_7" />
+   <iLink obj="co_29" qRef="q4_1" />
+   <iLink obj="co_29" qRef="q4_2" />
+   <iLink obj="co_29" qRef="q10_7" />
+   <iLink obj="co_29" qRef="q10_13" />
+   <iLink obj="co_29" qRef="q10_17" />
+   <iLink obj="co_30" qRef="q1_5" />
+   <iLink obj="co_30" qRef="q1_7" />
+   <iLink obj="co_30" qRef="q6_2" />
+   <iLink obj="co_30" qRef="q9_7" />
+   <iLink obj="co_30" qRef="q9_8" />
+   <iLink obj="co_31" qRef="q1_18" />
+   <iLink obj="co_32" qRef="q1_12" />
+   <iLink obj="co_32" qRef="q2_14" />
+   <iLink obj="co_32" qRef="q2_17" />
+   <iLink obj="co_32" qRef="q9_14" />
+   <iLink obj="co_32" qRef="q9_15" />
+   <iLink obj="co_32" qRef="q9_17" />
+   <iLink obj="co_33" qRef="q1_17" />
+   <iLink obj="co_33" qRef="q1_29" />
+   <iLink obj="co_33" qRef="q1_34" />
+   <iLink obj="co_33" qRef="q9_9" />
+   <iLink obj="co_34" qRef="q1_2" />
+   <iLink obj="co_35" qRef="q2_4" />
+   <iLink obj="co_35" qRef="q9_18" />
+   <iLink obj="co_35" qRef="q10_11" />
+   <iLink obj="co_36" qRef="q1_5" />
+   <iLink obj="co_36" qRef="q2_17" />
+   <iLink obj="co_37" qRef="q1_5" />
+   <iLink obj="co_38" qRef="q1_5" />
+   <iLink obj="co_38" qRef="q1_10" />
+   <iLink obj="co_38" qRef="q1_11" />
+   <iLink obj="co_38" qRef="q1_31" />
+   <iLink obj="co_38" qRef="q8_2" />
+   <iLink obj="co_38" qRef="q9_10" />
+   <iLink obj="co_38" qRef="q9_11" />
+   <iLink obj="co_38" qRef="q9_13" />
+   <iLink obj="co_38" qRef="q9_16" />
+   <iLink obj="co_38" qRef="q9_19" />
+   <iLink obj="co_39" qRef="q1_11" />
+   <iLink obj="co_39" qRef="q1_31" />
+   <iLink obj="co_39" qRef="q1_37" />
+   <iLink obj="co_39" qRef="q8_1" />
+   <iLink obj="co_39" qRef="q8_5" />
+   <iLink obj="co_39" qRef="q10_8" />
+   <iLink obj="co_40" qRef="q1_10" />
+   <iLink obj="co_40" qRef="q1_36" />
+   <iLink obj="co_40" qRef="q10_8" />
+   <iLink obj="co_41" qRef="q1_5" />
+   <iLink obj="co_41" qRef="q1_7" />
+   <iLink obj="co_41" qRef="q1_14" />
+   <iLink obj="co_41" qRef="q1_24" />
+   <iLink obj="co_42" qRef="q1_1" />
+   <iLink obj="co_42" qRef="q2_12" />
+   <iLink obj="co_42" qRef="q2_19" />
+   <iLink obj="co_42" qRef="q6_2" />
+   <iLink obj="co_42" qRef="q10_9" />
+   <iLink obj="co_43" qRef="q9_4" />
+   <iLink obj="co_43" qRef="q9_5" />
+   <iLink obj="co_43" qRef="q9_6" />
+   <iLink obj="co_44" qRef="q1_23" />
+   <iLink obj="co_44" qRef="q1_35" />
+   <iLink obj="co_44" qRef="q2_3" />
+   <iLink obj="co_44" qRef="q2_5" />
+   <iLink obj="co_44" qRef="q2_25" />
+   <iLink obj="co_45" qRef="q6_1" />
+  </codings>
+  <memoings size="0" >
+  </memoings>
+</objectSegmentLinks>
+ <codeLinkProtos size="0" >
+ </codeLinkProtos>
+ <codeLinks size="0" >
+ </codeLinks>
+ <hyperLinkProtos size="0" >
+ </hyperLinkProtos>
+ <hyperLinks size="0" >
+ </hyperLinks>
+ <memoMemoLinks size="0" >
+ </memoMemoLinks>
+ <memoCodeLinks size="0" >
+ </memoCodeLinks>
+ <codeMemoLinks size="0" >
+ </codeMemoLinks>
+</links>
+<settings bookMark ="" pd="pd_9" q="q9_3" code="co_21" memo="" qFilter="All" qSort="nummer" cFilter="All" cFam="" cSort="name" mFilter="All" mFam="" mSort="name" />
+</storedHU>

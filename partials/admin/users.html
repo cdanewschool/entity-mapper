@@ -1,0 +1,74 @@
+<div class="container">
+
+	<div class="alert alert-warning alert-dismissable" ng-show="adminModel.status!=null">
+		<button type="button" class="close" aria-hidden="true" ng-click="adminModel.status=null">&times;</button>
+		{{adminModel.status}}
+	</div>
+	
+	<form name="userForm" role="form" class="form-horizontal">
+		
+		<div class="form-group">
+   			
+   			<div class="col-lg-10">
+    			<h2 id="header" ng-show="adminModel.formData.user.id==null">Edit a User</h2>
+    			<h2 id="header" ng-show="adminModel.formData.user.id!=null">Editing user "<strong>{{adminModel.formData.user.username}}</strong>"</h2>
+   			</div>
+   			
+   		</div>
+   		
+  		<div class="form-group" ng-show="(userModel.userOptions).length>1">
+  			
+   			<label class="col-lg-1">User</label>
+   			
+   			<div class="col-lg-6">
+   				<select class="form-control input-sm" ng-model="adminModel.selectedUserId" ng-options="t.id as t.username for t in userModel.userOptions"></select>
+   			</div>
+   			
+   		</div>
+  		
+  		<div ng-show="adminModel.selectedUserId!=null">
+	   		
+	   		<div class="form-group">
+	  			
+	   			<label class="col-lg-1">Role</label>
+	   			
+	   			<div class="col-lg-6">
+	   				<select class="form-control input-sm" ng-model="adminModel.formData.user.role_id" ng-options="t.id as t.title for t in userModel.roles"></select>
+	   			</div>
+	   			
+	   		</div>
+	   		
+	  		<div class="form-group">
+	  			
+	  			<label class="col-lg-1" for="entity-parent">New Password</label>
+	  			
+	   			<div class="col-lg-6">
+	   				<input class="form-control input-sm" type="password" ng-model="adminModel.formData.user.password" placeholder="Password" />
+	  			</div>
+	   			
+	   		</div>
+	   		
+			<div class="form-group">
+	  			
+	  			<label class="col-lg-1" for="entity-parent">New Password (confirm)</label>
+	  			
+	   			<div class="col-lg-6">
+	   				<input class="form-control input-sm" type="password" ng-model="adminModel.formData.user.passwordConfirm" placeholder="Password" />
+	  			</div>
+	   			
+	   		</div>
+				    
+			<div class="form-group">
+			
+				<div class="col-lg-1 col-lg-offset-1">
+		    		<button type="button" class="btn btn-default" ng-click="saveUser()">Save</button>
+		   		</div>
+			
+			</div>
+		
+  		</div>
+  		
+		
+	</form>
+
+</div>

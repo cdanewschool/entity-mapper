@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<storedHU xmlns:aml="http://www.atlasti.com/hu/ns2003" lastSaved="2013-10-17T13:44:13 " creator="ATLAS.ti" method="AML (ATLAS Markup Language)" version="7.0.88" mode="complete">
+
+<hermUnit name="Interviews I" au="Super" cDate="2013-10-16T12:30:31" mDate="2013-10-17T13:37:21" lastPD="1" prot="private" />
+<coAuthors>
+</coAuthors>
+
+<dataSources size="1" >
+ <dataSource id="doc_1" loc="@MD:C:\Users\Anne Luther\Desktop\Interviews I\LK(1).rtf!LocalManaged!C:\Users\Anne Luther\Desktop\Interviews I\LK(1).rtf!,318E9262D5F0CD4431654D3BFB7B6A9F,0,3559379477,47197, !!!!!!!" mime="text/rtf" renderer="REC5" />
+</dataSources>
+
+
+<primDocs size="1" >
+ <primDoc name="LK(1).rtf" id="pd_1" loc="doc_1" au="Super" cDate="2013-10-16T12:31:17" mDate="2013-10-16T16:37:59" qIndex="81" >
+ <quotations size="80" >
+  <q name="make everything here" id="q1_1" au="Super" cDate="2013-10-16T12:32:21" mDate="2013-10-16T12:32:21" loc="35 @ 11, 54 @ 11!">
+   <content size="27"><p>make everything here</p></content>
+  </q>
+  <q name="yes, there is a ceramic studio.." id="q1_2" au="Super" cDate="2013-10-16T12:32:51" mDate="2013-10-16T12:32:51" loc="25 @ 13, 215 @ 13!">
+   <content size="198"><p>yes, there is a ceramic studio that's around the corner that you can rent by the month so I made everything there and then shipped it out to LA with like heavy duty packaging, crazy packaging</p></content>
+  </q>
+  <q name="Bard which is so interdiscipli.." id="q1_3" au="Super" cDate="2013-10-16T12:34:36" mDate="2013-10-16T12:34:36" loc="37 @ 17, 295 @ 17!">
+   <content size="266"><p> Bard which is so interdisciplinary that it doesn't necessarily mean much of anything by the time you leave / they sort of try to like put you into some medium specific thing as you come into the school but then once you are in it doesn't really mean anything</p></content>
+  </q>
+  <q name="where that starts would be par.." id="q1_4" au="Super" cDate="2013-10-16T12:38:34" mDate="2013-10-16T12:38:34" loc="122 @ 37, 348 @ 37!">
+   <content size="234"><p>where that starts would be partly going to school and the people you are friends with in school which then become a group of people outside of school which then leads to other opportunities like group shows and things like that</p></content>
+  </q>
+  <q name="and part of it is just being i.." id="q1_5" au="Super" cDate="2013-10-16T12:39:32" mDate="2013-10-16T12:39:32" loc="349 @ 37, 479 @ 37!">
+   <content size="138"><p> and part of it is just being in New York and being like within like a its not even a scene its just like within a city's art scene</p></content>
+  </q>
+  <q name="that's partly like social netw.." id="q1_6" au="Super" cDate="2013-10-16T12:40:41" mDate="2013-10-16T12:40:41" loc="1111 @ 37, 1145 @ 37!">
+   <content size="42"><p> that's partly like social networks</p></content>
+  </q>
+  <q name="and partly just being in a spe.." id="q1_7" au="Super" cDate="2013-10-16T12:40:56" mDate="2013-10-16T12:40:56" loc="1174 @ 37, 1218 @ 37!">
+   <content size="52"><p>and partly just being in a specific location </p></content>
+  </q>
+  <q name="and partly the work itself" id="q1_8" au="Super" cDate="2013-10-16T12:41:18" mDate="2013-10-16T12:41:19" loc="1147 @ 37, 1172 @ 37!">
+   <content size="33"><p>and partly the work itself</p></content>
+  </q>
+  <q name="I mean its heard to say I mean.." id="q1_9" au="Super" cDate="2013-10-16T12:43:15" mDate="2013-10-16T13:40:49" loc="124 @ 49, 312 @ 49!">
+   <content size="196"><p> I mean its heard to say I mean I went there and I am based in New York but within New York it has a huge amount of influence / like more so than pretty much anywhere that I could think of </p></content>
+  </q>
+  <q name="I think initially its totally .." id="q1_10" au="Super" cDate="2013-10-16T12:44:56" mDate="2013-10-16T12:44:56" loc="25 @ 61, 140 @ 61!">
+   <content size="123"><p>I think initially its totally like terrifying in that way like it produced a lot of anxiety being judged in some way</p></content>
+  </q>
+  <q name="I think its what's keeps it in.." id="q1_11" au="Super" cDate="2013-10-16T13:41:51" mDate="2013-10-16T13:41:51" loc="419 @ 61, 762 @ 61!">
+   <content size="351"><p> I think its what's keeps it interesting so its like how it gets received cause its never the way you exactly intend it to be so it takes on that life of its own outside of this like private conversation that you have with the work as soon as it steps out into that public sphere it sort of its like orphaned from you and becomes its own thing </p></content>
+  </q>
+  <q name="its not that they are calcifie.." id="q1_12" au="Super" cDate="2013-10-16T13:43:58" mDate="2013-10-16T13:43:58" loc="25 @ 65, 311 @ 65!">
+   <content size="294"><p>its not that they are calcified but their parameters are very clearly defined of like what falls within and what without if you want to be of like a specific conversation then you know like what's sort of required of the work which is very I mean interesting but oppressive sometimes too</p></content>
+  </q>
+  <q name="viewing mechanism" id="q1_13" au="Super" cDate="2013-10-16T13:44:36" mDate="2013-10-16T13:44:36" loc="320 @ 69, 337 @ 69!">
+   <content size="25"><p> viewing mechanism</p></content>
+  </q>
+  <q name="viewing mechanism that works o.." id="q1_14" au="Super" cDate="2013-10-16T13:45:06" mDate="2013-10-16T13:45:06" loc="321 @ 69, 524 @ 69!">
+   <content size="211"><p>viewing mechanism that works on like a much larger scale thats tied to publications and an online presence and all those things so if you step outside of that you potentially become invisible so its tough</p></content>
+  </q>
+  <q name="yes I mean because I mean its .." id="q1_15" au="Super" cDate="2013-10-16T13:45:22" mDate="2013-10-16T13:45:22" loc="25 @ 69, 524 @ 69!">
+   <content size="507"><p>yes I mean because I mean its not heard to step out of it but its also hard to be an artist and step out of it and remain viable because part of being an artist is like you have to be seen the work has to be seen and when you step outside of that you are stepping out of like a specific you know viewing mechanism that works on like a much larger scale thats tied to publications and an online presence and all those things so if you step outside of that you potentially become invisible so its tough</p></content>
+  </q>
+  <q name="the like photographic thinking.." id="q1_16" au="Super" cDate="2013-10-16T13:48:13" mDate="2013-10-16T13:48:13" loc="25 @ 77, 319 @ 77!">
+   <content size="302"><p>the like photographic thinking extending artwork that's partly like what I am talking about with that its like you know you are always thinking about it as an image an the reception of it and how that works like even though it is an object and like so much of it exists within an image state now</p></content>
+  </q>
+  <q name="have like a pinkish light to t.." id="q1_17" au="Super" cDate="2013-10-16T13:48:20" mDate="2013-10-16T13:48:20" loc="170 @ 73, 544 @ 73!">
+   <content size="382"><p>have like a pinkish light to them and part of that choice was about the reproduction of it and how you start to delineate yourself from like every other reproduction of a gallery space and deal with that in some way because it does start to sort of you know after a while like clean bright white space just starts to look like clean white bright space no matter what's in it </p></content>
+  </q>
+  <q name="but even that you know Contemp.." id="q1_18" au="Super" cDate="2013-10-16T13:48:50" mDate="2013-10-17T13:10:25" loc="24 @ 81, 287 @ 81!">
+   <content size="271"><p> but even that you know Contemporary Art Daily has like all that stuff has its own circles that sort of determines what appears there I mean you have to be willing to engage with certain things to make certain things to make certain things appear in certain places</p></content>
+  </q>
+  <q name="viewing mechanism that works o.." id="q1_19" au="Super" cDate="2013-10-16T13:50:15" mDate="2013-10-16T13:50:15" loc="320 @ 69, 524 @ 69!">
+   <content size="212"><p> viewing mechanism that works on like a much larger scale thats tied to publications and an online presence and all those things so if you step outside of that you potentially become invisible so its tough</p></content>
+  </q>
+  <q name="there is like a couple of diff.." id="q1_20" au="Super" cDate="2013-10-16T14:04:06" mDate="2013-10-16T14:04:06" loc="169 @ 85, 429 @ 85!">
+   <content size="268"><p> there is like a couple of different things that work within that like you would have to be a sponsor on that side for them to consider you know there is like sort of these other things that decide whether it shows up or not besides whether they like it or not </p></content>
+  </q>
+  <q name="yes I would say massively so e.." id="q1_21" au="Super" cDate="2013-10-16T14:05:48" mDate="2013-10-16T14:05:48" loc="25 @ 93, 325 @ 93!">
+   <content size="308"><p>yes I would say massively so even in very small ways like just having somebody else present like having to share a studio with someone makes you not do certain things just because there is someone there its just like the nature of it there is like a little bit of restraint that comes into what you do</p></content>
+  </q>
+  <q name="and then the space itself can .." id="q1_22" au="Super" cDate="2013-10-16T14:06:08" mDate="2013-10-16T14:06:08" loc="329 @ 93, 498 @ 93!">
+   <content size="177"><p>and then the space itself can yes I think it has a huge influence in how you feel when you are in the space which then obviously transfers over to the making of the work </p></content>
+  </q>
+  <q name="I mean I remember it because i.." id="q1_23" au="Super" cDate="2013-10-16T14:08:32" mDate="2013-10-16T14:08:32" loc="46 @ 101, 714 @ 101!">
+   <content size="676"><p>I mean I remember it because it was the first time it was like its still no its not so much now but the first time it definitely felt like strange that somebody is like oh yeah somebody will actually buy this like that's a very it sort of switches the whole view of it it becomes very I don't know its just a surreal experience like its actual instead of like as something that you have been thinking might happen it actualizes it in some way it did happen in that show with firstname1 at gallery1 almost that whole show sold which is totally bizarre to me because its not it was the first time that it like anything had sold and then a bunch of it sold which was cool </p></content>
+  </q>
+  <q name="I find when work sits around f.." id="q1_24" au="Super" cDate="2013-10-16T14:09:46" mDate="2013-10-16T14:09:46" loc="302 @ 105, 621 @ 105!">
+   <content size="327"><p> I find when work sits around for a while you start to realize things in it that you didn't see before so the more time you can spend with it the more it actually shows you about what you are doing and what you are interested in so having those disappear is like sort of shutting off a time period that you worked within</p></content>
+  </q>
+  <q name="the first solo show at firstna.." id="q1_25" au="Super" cDate="2013-10-16T14:10:34" mDate="2013-10-16T14:10:34" loc="755 @ 105, 938 @ 105!">
+   <content size="191"><p> the first solo show at firstname3 I held back a couple of pieces from being sold there so that I could keep them around and see what they look like you know in another couple of years</p></content>
+  </q>
+  <q name="yes actually I do get with som.." id="q1_26" au="Super" cDate="2013-10-16T14:11:01" mDate="2013-10-16T14:11:01" loc="25 @ 105, 1140 @ 105!">
+   <content size="1123"><p>yes actually I do get with some people you think like you don't get really attached to pieces and they are just like whatever you know they are there for being sold and its not a big deal but I think it is sad I still  I think like I like to see those pieces again because they I find when work sits around for a while you start to realize things in it that you didn't see before so the more time you can spend with it the more it actually shows you about what you are doing and what you are interested in so having those disappear is like sort of shutting off a time period that you worked within so like a year of work just disappears and you don't see it again so its a little sad I started to adjust that where there is like / the first solo show at firstname3 I held back a couple of pieces from being sold there so that I could keep them around and see what they look like you know in another couple of years but before that I hadn't thought about doing that but that first time (incomprehensible) definitely made me conscious of that and I decided to not do that in the future / I do I get attached to things </p></content>
+  </q>
+  <q name="yes I mean I know everyone tha.." id="q1_27" au="Super" cDate="2013-10-16T14:11:56" mDate="2013-10-16T14:12:10" loc="25 @ 109, 322 @ 109!">
+   <content size="305"><p>yes I mean I know everyone that collected the work and what work they have but where its actually located in space I don't know I know some you know like some people tell you that its in their house or that they have it on display somewhere and then some of it you just never hear where it ends up </p></content>
+  </q>
+  <q name="no not at all so it literally .." id="q1_28" au="Super" cDate="2013-10-16T14:12:44" mDate="2013-10-16T14:13:46" loc="25 @ 117, 68 @ 117!">
+   <content size="51"><p>no not at all so it literally just vanishes </p></content>
+  </q>
+  <q name="yes, its a weird feeling that .." id="q1_29" au="Super" cDate="2013-10-16T14:13:55" mDate="2013-10-16T14:13:55" loc="24 @ 125, 85 @ 125!">
+   <content size="69"><p> yes, its a weird feeling that you never see it again possibly</p></content>
+  </q>
+  <q name="also just for studio visits li.." id="q1_30" au="Super" cDate="2013-10-16T14:14:33" mDate="2013-10-16T14:14:33" loc="24 @ 129, 291 @ 129!">
+   <content size="275"><p> also just for studio visits like you have to people really want to see when they come to the studio what it actually looks like because everybody looks at stuff online so they have a real investment they are like show me the real they want to see like the real thing </p></content>
+  </q>
+  <q name="yes pretty often like a couple.." id="q1_31" au="Super" cDate="2013-10-16T14:14:43" mDate="2013-10-16T14:16:57" loc="25 @ 133, 81 @ 133!">
+   <content size="64"><p>yes pretty often like a couple of times a month probably </p></content>
+  </q>
+  <q name="some people are way more like .." id="q1_33" au="Super" cDate="2013-10-16T14:18:59" mDate="2013-10-16T14:18:59" loc="321 @ 141, 585 @ 141!">
+   <content size="272"><p>some people are way more like want to look at the work and talk specifically about the work so its like you get all different sorts of agendas that come through the door you never know exactly what its gonne be until the conversation starts so its always different,</p></content>
+  </q>
+  <q name="I mean its sort of like going .." id="q1_34" au="Super" cDate="2013-10-16T14:19:22" mDate="2013-10-16T14:19:22" loc="46 @ 141, 315 @ 141!">
+   <content size="277"><p> I mean its sort of like going to different studios every studio has like its own personality and style to it its like everybody who shows up has their own personality and style for how they want to conduct a studio visit and some people are way more like want to gossip</p></content>
+  </q>
+  <q name="no its like curators and galle.." id="q1_35" au="Super" cDate="2013-10-16T14:20:30" mDate="2013-10-16T14:20:30" loc="25 @ 145, 145 @ 145!">
+   <content size="127"><p>no its like curators and gallerists like those types of people I don't think I have had a collector coming by the studio</p></content>
+  </q>
+  <q name="I think its bad that there is .." id="q1_36" au="Super" cDate="2013-10-16T14:21:50" mDate="2013-10-16T14:21:50" loc="478 @ 149, 734 @ 149!">
+   <content size="264"><p> I think its bad that there is the gallery sort of operates as like a middle man inbetween you and the collector and maybe that's not necessarily a good think but its so standardized now you know it feels weird to like so directly interface with each other </p></content>
+  </q>
+  <q name="no, its like a weird / because.." id="q1_37" au="Super" cDate="2013-10-16T14:22:25" mDate="2013-10-16T14:22:26" loc="25 @ 149, 357 @ 149!">
+   <content size="340"><p>no, its like a weird / because potentially the only reason why you would have a collector by the studio is that they want to buy something which sets up a weird dynamic like galleries get really upset about stuff like that, they think you are selling out of your studio on the side and they get really upset and potentially the work </p></content>
+  </q>
+  <q name="I definitely like a lot of us .." id="q1_38" au="Super" cDate="2013-10-16T14:24:14" mDate="2013-10-16T14:24:14" loc="41 @ 161, 411 @ 161!">
+   <content size="378"><p>I definitely like a lot of us do trade with each other for stuff so like the woman who wrote the press release for this I traded her work for that like that kind of stuff makes me happy I like going over to a friends house I mean I guess thats not true I have seen pieces but it wasn't thinking in terms of a collector I was just thinking like friends have pieces at home</p></content>
+  </q>
+  <q name="the first time somebody purcha.." id="q1_39" au="Super" cDate="2013-10-16T14:25:32" mDate="2013-10-16T14:25:32" loc="143 @ 165, 395 @ 165!">
+   <content size="260"><p> the first time somebody purchases something its some sort of validating experience of like oh this is actually viable or something I can do for a living that like is like means its like viable or has some sort of historical sense or something like that</p></content>
+  </q>
+  <q name="it has some historical connota.." id="q1_40" au="Super" cDate="2013-10-16T14:26:18" mDate="2013-10-16T14:26:18" loc="39 @ 165, 109 @ 165!">
+   <content size="78"><p>it has some historical connotation to it like you have been written in </p></content>
+  </q>
+  <q name="yes to a degree I went to Pars.." id="q1_41" au="Super" cDate="2013-10-16T14:27:05" mDate="2013-10-16T14:27:05" loc="25 @ 169, 294 @ 169!">
+   <content size="277"><p>yes to a degree I went to Parsons for photography so I was working commercially assisting within stuff I was going to school to pay for stuff but then also until like about a year ago I was shooting stuff for galleries and things like that to sort of subsidize my income</p></content>
+  </q>
+  <q name="I mean I liked it too because .." id="q1_42" au="Super" cDate="2013-10-16T14:28:32" mDate="2013-10-16T14:28:32" loc="69 @ 173, 414 @ 173!">
+   <content size="353"><p> I mean I liked it too because its very / because of the practical side of it its like you get to see you sort of get to see how that whole the whole photo industry thing functions which is I think a lot of people are a bit blind to it unless you have worked in that field so its like an interesting thing to see like what's asked for within that</p></content>
+  </q>
+  <q name="the demands sort of go both wa.." id="q1_43" au="Super" cDate="2013-10-16T14:30:33" mDate="2013-10-16T14:30:33" loc="305 @ 182, 1301 @ 182!">
+   <content size="1004"><p> the demands sort of go both ways its not so like you work in the studio and turn something up its like people collectors start to put more pressure on what's produced which seems closer to like what photography used to be like the photographer would shoot everything and then it would go into post and now its because its digital people stand there and the client is looking at whats been shot and directing so they dont like something they are seeing it immediately and then its been adjusted and its been adjusted and its been adjusted - which didn't used to be the case it used to be like the photographer was very much in control of that situation and then afterwards they would just give the final product and sometimes art seems a little bit more like that like not so direct but that there is a pressure that comes from what's dem/ what's / what's received well to like replicate that and to reproduce it which I see as somehow similar to that relationship with the photographer and client</p></content>
+  </q>
+  <q name="I don't know how you would sta.." id="q1_44" au="Super" cDate="2013-10-16T14:31:20" mDate="2013-10-16T14:31:20" loc="25 @ 190, 321 @ 190!">
+   <content size="304"><p>I don't know how you would state it specifically but there is definitely certain styles that you see that become very of a moment and these styles get recognized as being contemporary which obviously has a certain amount of value to it / so in that way I think you are kind of aware of what works </p></content>
+  </q>
+  <q name="I mean you kind of get a feel .." id="q1_45" au="Super" cDate="2013-10-16T15:41:51" mDate="2013-10-16T15:41:51" loc="24 @ 194, 159 @ 194!">
+   <content size="142"><p> I mean you kind of get a feel for what's like oh yes that just looks right for right now and then you can chose to replicate it or not</p></content>
+  </q>
+  <q name="its not even to be a better ar.." id="q1_46" au="Super" cDate="2013-10-16T15:43:51" mDate="2013-10-16T15:43:51" loc="378 @ 206, 875 @ 206!">
+   <content size="505"><p>its not even to be a better artist but to be like having a career that becomes more and more stable sort of so the first show is like a first step in that process and then you start to figure out how to like I don't know spread that outwards a little bit more have more time to do it and have more space and have like a little bit more of everything to make the work have a little more room to be what it needs to be so its more like that kind of process I don't know if that's what you are asking </p></content>
+  </q>
+  <q name="so there is like a review for .." id="q1_47" au="Super" cDate="2013-10-16T15:44:30" mDate="2013-10-16T15:44:30" loc="101 @ 210, 138 @ 210!">
+   <content size="45"><p>so there is like a review for the show</p></content>
+  </q>
+  <q name="there is like what gets purcha.." id="q1_48" au="Super" cDate="2013-10-16T15:45:22" mDate="2013-10-16T15:45:22" loc="159 @ 210, 248 @ 210!">
+   <content size="97"><p> there is like what gets purchased and what doesn't get purchased which says another thing</p></content>
+  </q>
+  <q name="there is a responds of the gal.." id="q1_49" au="Super" cDate="2013-10-16T15:45:55" mDate="2013-10-16T15:45:55" loc="249 @ 210, 310 @ 210!">
+   <content size="69"><p> there is a responds of the gallerist which says another thing</p></content>
+  </q>
+  <q name="and then there is your own res.." id="q1_50" au="Super" cDate="2013-10-16T15:47:15" mDate="2013-10-16T15:47:15" loc="312 @ 210, 384 @ 210!">
+   <content size="80"><p>and then there is your own responds to the work which says something else</p></content>
+  </q>
+  <q name="then there is friends responds.." id="q1_51" au="Super" cDate="2013-10-16T15:47:31" mDate="2013-10-16T15:47:31" loc="389 @ 210, 457 @ 210!">
+   <content size="76"><p> then there is friends responds to the work which says something else</p></content>
+  </q>
+  <q name="I mean I guess what's complica.." id="q1_52" au="Super" cDate="2013-10-16T15:49:12" mDate="2013-10-16T15:49:12" loc="25 @ 210, 1140 @ 210!">
+   <content size="1123"><p>I mean I guess what's complicated about it is you / what complicates is you so there is like a review for the show that says one thing there is like what gets purchased and what doesn't get purchased which says another thing there is a responds of the gallerist which says another thing and then there is your own responds to the work which says something else and then there is friends responds to the work which says something else so you are trying to sort of figure out of all that sort of information that comes at you what you are actually interested in and what like the different forces are that are pushing you towards different things so and then balance that out in some way so that you are ok with all of it and its not too much I don't know I think that's sort of the kind of the largest part of it is deciding to what to listen to and what not to listen to and also just being clear about what it is you want like if you want money then you should listen to one thing or if you want recognition you should listen to another thing or if you want something you're / depending on what you are looking for </p></content>
+  </q>
+  <q name="contemporary materials" id="q1_53" au="Super" cDate="2013-10-16T15:49:29" mDate="2013-10-16T15:49:29" loc="107 @ 214, 128 @ 214!">
+   <content size="29"><p>contemporary materials</p></content>
+  </q>
+  <q name="there is actually materials th.." id="q1_54" au="Super" cDate="2013-10-16T15:50:14" mDate="2013-10-16T15:50:14" loc="246 @ 214, 668 @ 214!">
+   <content size="430"><p> there is actually materials that are / that exists that are like right for the contemporary moment but there seems like everything feels a little dated in some way and does it really stand out to like the online experience or things like that its like something that doesn't quiet represent in the materials so / I sort of picked the materials that are best suited but still I feel it is something that is not quiet there </p></content>
+  </q>
+  <q name="yes, I think like digital mate.." id="q1_55" au="Super" cDate="2013-10-16T15:50:37" mDate="2013-10-16T15:50:48" loc="25 @ 218, 135 @ 218!">
+   <content size="118"><p>yes, I think like digital material, like anything that is produced digitally is seen as a contemporary material</p></content>
+  </q>
+  <q name="contemporary /// meaning like .." id="q1_56" au="Super" cDate="2013-10-16T15:52:19" mDate="2013-10-16T15:52:36" loc="25 @ 222, 451 @ 222!">
+   <content size="433"><p>contemporary /// meaning like for me when I like a contemporary experience is sort of like a layered experience where there is like virtual and actual things and they are not necessarily separated out but are like layered up on top of each other and then how you represent that in the material way which for me fall on the actual side like its an actual real material but you are trying to represent virtual things through it </p></content>
+  </q>
+  <q name="well that is totally what I me.." id="q1_57" au="Super" cDate="2013-10-16T15:55:05" mDate="2013-10-16T15:55:05" loc="25 @ 230, 332 @ 230!">
+   <content size="314"><p>well that is totally what I mean that a real experience is seeing the show but they are both experiences of the same thing but they are two very different experiences of the same thing so its like hard to figure out how to make those two things appear on one surface within you know like making art objects </p></content>
+  </q>
+  <q name="I think studios tent to look w.." id="q1_58" au="Super" cDate="2013-10-16T16:01:00" mDate="2013-10-16T16:01:00" loc="24 @ 246, 573 @ 246!">
+   <content size="557"><p> I think studios tent to look way more interesting than shows in galleries but its also they serve two very different functions so you know a gallery is still very much about selling and has to present it in a certain way but that's where I also think the demand from the collector's side start to become a little too heavy because it requires a certain type of space and a certain type of presentation for the collector to be ok with that kind of space sort of like not /// I don't know its just not balance out enough where those demands come from </p></content>
+  </q>
+  <q name="two very different functions s.." id="q1_59" au="Super" cDate="2013-10-16T16:05:34" mDate="2013-10-16T16:05:34" loc="122 @ 246, 494 @ 246!">
+   <content size="380"><p> two very different functions so you know a gallery is still very much about selling and has to present it in a certain way but that's where I also think the demand from the collector's side start to become a little too heavy because it requires a certain type of space and a certain type of presentation for the collector to be ok with that kind of space sort of like not </p></content>
+  </q>
+  <q name="I feel like a little bit weird.." id="q1_60" au="Super" cDate="2013-10-16T16:07:11" mDate="2013-10-16T16:07:11" loc="25 @ 250, 912 @ 250!">
+   <content size="895"><p>I feel like a little bit weird like that because I feel like there are some things that are out there that are very sort of scripted into the conversation it becomes a very standardized complaint that there are these time pressures on things but I think to some degree you can always say no and not do it if you don't want to so it is if you want it to be I mean there is obviously like a very practical side to it you have to have a certain amount of money but you can also do other things for money in that times which is why I was doing the photography for a certain amount of time and I feel like there are other works too to keep those pressures off some so its not so so you get to make those choices instead of like depend on those choice like giving away those choices it is just a thing that you have to negotiate but I don't like thinking of it as something that is just a given</p></content>
+  </q>
+  <q name="well Columbia has a reputation.." id="q1_61" au="Super" cDate="2013-10-16T16:08:19" mDate="2013-10-16T16:08:19" loc="25 @ 254, 622 @ 254!">
+   <content size="605"><p>well Columbia has a reputation for being that type of MfA program where they produce people that are immediately introduced into the market whereas Bard is like a little bit less like that but I know what you mean I think that becomes more and more the situation that people go specifically to have to make money it is this hyper professionalized artist thing which is a little bit of a cliche at this point too but that seems to be more and more the case is its not /// its like you learn all the right things and then you just apply it and that is very different then at least I thought about it </p></content>
+  </q>
+  <q name="I don't know how you explain t.." id="q1_62" au="Super" cDate="2013-10-16T16:09:52" mDate="2013-10-16T16:09:52" loc="158 @ 258, 380 @ 258!">
+   <content size="230"><p> I don't know how you explain that but that there is multiple spaces occupying the same space so there is like the past and the present and the future and the virtual and an actual but they also layered on top of each other</p></content>
+  </q>
+  <q name="yes, these things are already .." id="q1_63" au="Super" cDate="2013-10-16T16:11:05" mDate="2013-10-16T16:11:05" loc="25 @ 262, 346 @ 262!">
+   <content size="329"><p>yes, these things are already layered on top of it where you have those apparatuses or what ever you want to call it yes its weird like operating within this like program of a school that says that there is this segment of moves that you are allowed to do or that pushes you to do those things so it doesn't really deviate</p></content>
+  </q>
+  <q name="social consciousness" id="q1_64" au="Super" cDate="2013-10-16T16:11:32" mDate="2013-10-16T16:11:32" loc="115 @ 266, 134 @ 266!">
+   <content size="27"><p>social consciousness</p></content>
+  </q>
+  <q name="social consciousness that is a.." id="q1_65" au="Super" cDate="2013-10-16T16:11:49" mDate="2013-10-16T16:11:49" loc="115 @ 266, 307 @ 266!">
+   <content size="200"><p>social consciousness that is almost hard to get away from it starts to dictate what you think and how you act because you spend so much time with people who are all talking about similar things</p></content>
+  </q>
+  <q name="continuous feed of an artistic.." id="q1_66" au="Super" cDate="2013-10-16T16:13:00" mDate="2013-10-16T16:13:00" loc="680 @ 266, 898 @ 266!">
+   <content size="226"><p>continuous feed of an artistic style that you see within New York that is very New York and which makes it very hard for it to be art it has to look like this style of art so you have to move away to get away from that </p></content>
+  </q>
+  <q name="yes its one of those things th.." id="q1_67" au="Super" cDate="2013-10-16T16:14:46" mDate="2013-10-17T13:05:53" loc="25 @ 274, 424 @ 274!">
+   <content size="407"><p>yes its one of those things that you have to be aware of and try to keep a certain type of fluidity in relation to it or decide to like ignore it completely but its hard when there is this outside things that shape the perception of the work so you sort of lose control of not complete control but control of how you want the work to be seen its like a context can take over the perception of a work </p></content>
+  </q>
+  <q name="yes its one of those things th.." id="q1_68" au="Super" cDate="2013-10-16T16:15:26" mDate="2013-10-16T16:15:26" loc="24 @ 274, 424 @ 274!">
+   <content size="408"><p> yes its one of those things that you have to be aware of and try to keep a certain type of fluidity in relation to it or decide to like ignore it completely but its hard when there is this outside things that shape the perception of the work so you sort of lose control of not complete control but control of how you want the work to be seen its like a context can take over the perception of a work </p></content>
+  </q>
+  <q name="that is what was nice about th.." id="q1_69" au="Super" cDate="2013-10-16T16:18:25" mDate="2013-10-16T16:18:25" loc="25 @ 278, 494 @ 278!">
+   <content size="477"><p>that is what was nice about this is why I originally agreed to show at the gallery in LA it was a new gallery its in LA its a very like total blank as far as its context which I really liked about it like the galleries within New York all carry such a context with them that you are not / no matter what you do its either gonna be against or for its always in relation to whatever that context is so the parameters of what you can see in the work are already determined </p></content>
+  </q>
+  <q name="galleryname1 is a very specifi.." id="q1_70" au="Super" cDate="2013-10-16T16:27:41" mDate="2013-10-16T16:27:59" loc="289 @ 282, 562 @ 282!">
+   <content size="281"><p> galleryname1 is a very specific context because it is that there are teachers from Bard that show at that gallery and then stuff like that so that show had a lot to do with just having come out of Bard and like the relationship of being instructed there and what that meant</p></content>
+  </q>
+  <q name="yes it becomes like a very wei.." id="q1_71" au="Super" cDate="2013-10-16T16:28:28" mDate="2013-10-16T16:28:28" loc="25 @ 286, 392 @ 286!">
+   <content size="375"><p>yes it becomes like a very weird experience and not necessarily like teachers that I like didn't dislike but didn't like agree within artistic practice like how their practices are and how their objects function and all that stuff so there is / yes very much in relation to that like taking a its not even a contrary position but taking a different position than that </p></content>
+  </q>
+  <q name="so such like fuzzy science whe.." id="q1_72" au="Super" cDate="2013-10-16T16:30:00" mDate="2013-10-16T16:30:00" loc="358 @ 290, 816 @ 290!">
+   <content size="466"><p> so such like fuzzy science where its like you are looking around and you try to determine other people who are at the same level that you would be and have like the same sort of desirability and then take their pricing and sort of average that out and start to determine where you should be or a lot is just like what you feel it should be at and also trying to get a little bit of a handle and how much interest there is like so much demand there is for it </p></content>
+  </q>
+  <q name="then it also depends on like w.." id="q1_73" au="Super" cDate="2013-10-16T16:30:30" mDate="2013-10-16T16:30:30" loc="820 @ 290, 948 @ 290!">
+   <content size="136"><p> then it also depends on like what it is you are producing like how serial it is and how like unique it is and there is like all </p></content>
+  </q>
+  <q name="some galleries do it by the sq.." id="q1_74" au="Super" cDate="2013-10-16T16:31:10" mDate="2013-10-16T16:31:10" loc="1028 @ 290, 1122 @ 290!">
+   <content size="102"><p>some galleries do it by the square inch like how big it is determines like what the pricing is </p></content>
+  </q>
+  <q name="different rationales" id="q1_75" au="Super" cDate="2013-10-16T16:31:41" mDate="2013-10-16T16:31:41" loc="1170 @ 290, 1189 @ 290!">
+   <content size="27"><p>different rationales</p></content>
+  </q>
+  <q name="yes, I talk with my gallerist .." id="q1_76" au="Super" cDate="2013-10-16T16:32:29" mDate="2013-10-16T16:32:29" loc="25 @ 294, 582 @ 294!">
+   <content size="565"><p>yes, I talk with my gallerist about that right now a lot not a lot but I have that its like a very open conversation that we have about that is kind of like how we determine that and originally it was just based off what you thought was comparable like as far as and then you go from there and decide at like the first year the second year and where you think you are now and much that should increase and he has like a very like what is too much or what is too little and I always push him on that a little bit to see if I can make him do a little bit more </p></content>
+  </q>
+  <q name="yes it is a weird thing but I .." id="q1_77" au="Super" cDate="2013-10-16T16:34:54" mDate="2013-10-16T16:34:54" loc="25 @ 298, 760 @ 298!">
+   <content size="743"><p>yes it is a weird thing but I don't like it to be a weird thing I'd rather just be very upfront with him about it and like ok this is what we talk about because it creates weird misunderstanding that I don't like either but its definitely like a push pull thing because he is also you know from his point of view he wants to sell and he wants to keep the price down a little bit to make sure he does sell like you don't want it to be so low that people think like oh that's weird its like too cheap you shouldn't buy that and you don't want it to be so high that people get scared off so the gallerist is usually pushing a little bit  towards the lower end so I am like trying to pull that up just a little bit too because you want to /</p></content>
+  </q>
+  <q name="mean over the course of a care.." id="q1_78" au="Super" cDate="2013-10-16T16:36:31" mDate="2013-10-16T16:36:31" loc="764 @ 298, 1309 @ 298!">
+   <content size="553"><p>mean over the course of a career you want to build it enough to the point where its comfortable instead of just like getting by so you are slowly trying to build that price as you go along so its like ok each year like how much you have to build the price to eventually hit a point where you would be comfortable with making the amount of work that you want to make and not be like scrambling or like outsourcing or doing something that I wouldn't be ok with so its like a little structure (incomprehensible) this is why I am so involved with it </p></content>
+  </q>
+  <q name="yes, it could totally throw th.." id="q1_79" au="Super" cDate="2013-10-16T16:37:18" mDate="2013-10-16T16:37:18" loc="25 @ 302, 594 @ 302!">
+   <content size="577"><p>yes, it could totally throw that completely off the whole thing thats why you have to I mean that is something that we talked about too you kind of have to have conversations with the gallerist about who is actually receiving the work like what they are intending to do with the work you know like certain people have reputations for being way more active in the secondary market then other people and you just have to stay clear of these people and try to have as much control over it as you can but obviously you can't completely but if you try to be careful about it </p></content>
+  </q>
+  <q name="yes, they are supposed to have.." id="q1_80" au="Super" cDate="2013-10-16T16:37:45" mDate="2013-10-16T16:37:45" loc="25 @ 306, 321 @ 306!">
+   <content size="304"><p>yes, they are supposed to have that specialized knowledge of who is who and who is doing what so you are relying on them to a certain extend to know that you also just ask around you ask people if they have heard of somebody and what they are like and people usually know if somebody is ok or not </p></content>
+  </q>
+  <q name="yes I want to know too I mean .." id="q1_81" au="Super" cDate="2013-10-16T16:37:59" mDate="2013-10-16T16:37:59" loc="25 @ 310, 271 @ 310!">
+   <content size="254"><p>yes I want to know too I mean you are talking to a wider group of people then because I am talking to a specific group of artists and he is talking to more of like collectors and other gallerists so you are widening that to get a general overview </p></content>
+  </q>
+ </quotations>
+ </primDoc>
+</primDocs>
+<codes size="55" >
+ <code name="agenda: communicate with curators, gallerists, peers" id="co_2" au="Super" cDate="2013-10-16T14:20:30" mDate="2013-10-17T12:00:02" color="" cCount="0" qCount="1" />
+ <code name="agenda: gossip" id="co_3" au="Super" cDate="2013-10-16T14:19:22" mDate="2013-10-17T12:00:04" color="" cCount="0" qCount="1" />
+ <code name="agenda: never sell work" id="co_4" au="Super" cDate="2013-10-16T14:22:25" mDate="2013-10-17T12:00:05" color="" cCount="0" qCount="1" />
+ <code name="agenda: see new work" id="co_5" au="Super" cDate="2013-10-16T14:14:33" mDate="2013-10-17T12:00:07" color="" cCount="0" qCount="2" />
+ <code name="appearance_museum" id="co_6" au="Super" cDate="2013-10-16T14:26:18" mDate="2013-10-17T11:28:45" color="" cCount="0" qCount="1" />
+ <code name="Appearance_online" id="co_7" au="Super" cDate="2013-10-16T13:49:24" mDate="2013-10-17T13:30:25" color="" cCount="0" qCount="3" />
+ <code name="Artist being judged" id="co_8" au="Super" cDate="2013-10-16T12:44:56" mDate="2013-10-17T13:17:56" color="" cCount="0" qCount="1" />
+ <code name="artist day job_part of research" id="co_9" au="Super" cDate="2013-10-16T14:28:32" mDate="2013-10-16T14:28:32" color="" cCount="0" qCount="1" />
+ <code name="artist day job_subsidize income" id="co_10" au="Super" cDate="2013-10-16T14:27:05" mDate="2013-10-16T16:07:11" color="" cCount="0" qCount="2" />
+ <code name="attachment to work" id="co_11" au="Super" cDate="2013-10-16T14:11:01" mDate="2013-10-17T13:18:10" color="" cCount="0" qCount="1" />
+ <code name="building a career" id="co_12" au="Super" cDate="2013-10-16T15:43:51" mDate="2013-10-17T13:30:02" color="" cCount="0" qCount="1" />
+ <code name="city_local_defined conversational parameters" id="co_13" au="Super" cDate="2013-10-16T13:43:58" mDate="2013-10-16T13:45:22" color="" cCount="0" qCount="2" />
+ <code name="collector's demands on art work" id="co_14" au="Super" cDate="2013-10-16T14:30:33" mDate="2013-10-16T14:31:20" color="" cCount="0" qCount="2" />
+ <code name="collector's demands on gallery representation" id="co_15" au="Super" cDate="2013-10-16T16:05:34" mDate="2013-10-16T16:05:34" color="" cCount="0" qCount="1" />
+ <code name="contemporary discourses" id="co_16" au="Super" cDate="2013-10-17T13:05:53" mDate="2013-10-17T13:10:17" color="" cCount="0" qCount="2" />
+ <code name="contemporary materials" id="co_17" au="Super" cDate="2013-10-16T15:49:29" mDate="2013-10-17T12:43:54" color="" cCount="0" qCount="4" />
+ <code name="contemporary_look" id="co_18" au="Super" cDate="2013-10-16T15:41:51" mDate="2013-10-17T12:43:56" color="" cCount="0" qCount="1" />
+ <code name="control of art production" id="co_19" au="Super" cDate="2013-10-16T16:14:46" mDate="2013-10-17T13:34:00" color="" cCount="0" qCount="1" />
+ <code name="digital image" id="co_20" au="Super" cDate="2013-10-16T13:48:13" mDate="2013-10-17T12:44:00" color="" cCount="0" qCount="5" />
+ <code name="effects on art production" id="co_21" au="Super" cDate="2013-10-16T14:05:48" mDate="2013-10-17T12:04:44" color="" cCount="0" qCount="2" />
+ <code name="exhibition_response_artist" id="co_22" au="Super" cDate="2013-10-16T15:47:15" mDate="2013-10-17T13:18:41" color="" cCount="0" qCount="1" />
+ <code name="exhibition_response_gallerist" id="co_23" au="Super" cDate="2013-10-16T15:45:55" mDate="2013-10-17T13:18:41" color="" cCount="0" qCount="1" />
+ <code name="exhibition_response_peers" id="co_24" au="Super" cDate="2013-10-16T15:47:31" mDate="2013-10-17T13:18:41" color="" cCount="0" qCount="1" />
+ <code name="exhibition_response_purchases" id="co_25" au="Super" cDate="2013-10-16T15:45:22" mDate="2013-10-17T13:18:41" color="" cCount="0" qCount="1" />
+ <code name="exhibition_response_review" id="co_26" au="Super" cDate="2013-10-16T15:44:30" mDate="2013-10-17T13:18:41" color="" cCount="0" qCount="1" />
+ <code name="experience_digital" id="co_27" au="Super" cDate="2013-10-16T15:55:05" mDate="2013-10-17T13:18:49" color="" cCount="0" qCount="1" />
+ <code name="experience_physical" id="co_28" au="Super" cDate="2013-10-16T15:55:05" mDate="2013-10-17T13:18:49" color="" cCount="0" qCount="1" />
+ <code name="frequency" id="co_29" au="Super" cDate="2013-10-16T14:16:57" mDate="2013-10-17T12:00:27" color="" cCount="0" qCount="1" />
+ <code name="Gallery_First Exhibition_Friends" id="co_30" au="Super" cDate="2013-10-16T12:38:34" mDate="2013-10-16T12:40:41" color="" cCount="0" qCount="2" />
+ <code name="Gallery_First Exhibition_local art scene" id="co_31" au="Super" cDate="2013-10-16T12:39:32" mDate="2013-10-16T16:27:42" color="" cCount="0" qCount="3" />
+ <code name="Gallery_First Exhibition_work itself" id="co_32" au="Super" cDate="2013-10-16T12:41:18" mDate="2013-10-17T13:19:39" color="" cCount="0" qCount="1" />
+ <code name="gallery_local context" id="co_33" au="Super" cDate="2013-10-16T16:18:25" mDate="2013-10-16T16:18:25" color="" cCount="0" qCount="1" />
+ <code name="gallery_middle man between collector and artist" id="co_34" au="Super" cDate="2013-10-16T14:21:50" mDate="2013-10-17T13:33:12" color="" cCount="0" qCount="1" />
+ <code name="influence on local art scene" id="co_35" au="Super" cDate="2013-10-16T13:40:36" mDate="2013-10-17T12:38:56" color="" cCount="0" qCount="3" />
+ <code name="Knowing the collector" id="co_36" au="Super" cDate="2013-10-16T14:11:56" mDate="2013-10-16T14:11:56" color="" cCount="0" qCount="1" />
+ <code name="Knowing the private space after sale" id="co_37" au="Super" cDate="2013-10-16T14:12:10" mDate="2013-10-17T13:33:07" color="" cCount="0" qCount="1" />
+ <code name="local_continous feed of an artistic style" id="co_38" au="Super" cDate="2013-10-16T16:13:00" mDate="2013-10-17T13:31:40" color="" cCount="0" qCount="1" />
+ <code name="location" id="co_39" au="Super" cDate="2013-10-16T12:32:21" mDate="2013-10-17T12:05:03" color="" cCount="0" qCount="2" />
+ <code name="money after exhibition" id="co_40" au="Super" cDate="2013-10-16T15:49:12" mDate="2013-10-17T13:29:12" color="" cCount="0" qCount="1" />
+ <code name="not knowing private space after sale" id="co_41" au="Super" cDate="2013-10-16T14:13:46" mDate="2013-10-17T13:32:52" color="" cCount="0" qCount="2" />
+ <code name="pricing art work_comparison to similar artists" id="co_42" au="Super" cDate="2013-10-16T16:30:00" mDate="2013-10-17T13:20:38" color="" cCount="0" qCount="1" />
+ <code name="pricing art work_conversation between artist and gallerist" id="co_43" au="Super" cDate="2013-10-16T16:34:54" mDate="2013-10-17T13:20:38" color="" cCount="0" qCount="1" />
+ <code name="pricing art work_different rationales" id="co_44" au="Super" cDate="2013-10-16T16:31:41" mDate="2013-10-17T13:20:38" color="" cCount="0" qCount="1" />
+ <code name="pricing art work_increase over time" id="co_45" au="Super" cDate="2013-10-16T16:32:29" mDate="2013-10-17T13:20:38" color="" cCount="0" qCount="2" />
+ <code name="pricing art work_serial or unique" id="co_46" au="Super" cDate="2013-10-16T16:30:30" mDate="2013-10-17T13:20:38" color="" cCount="0" qCount="1" />
+ <code name="pricing art works_size" id="co_47" au="Super" cDate="2013-10-16T16:31:10" mDate="2013-10-17T13:20:38" color="" cCount="0" qCount="1" />
+ <code name="private conversation with work" id="co_48" au="Super" cDate="2013-10-16T13:41:51" mDate="2013-10-17T12:03:01" color="" cCount="0" qCount="3" />
+ <code name="recognition after exhibition" id="co_49" au="Super" cDate="2013-10-16T15:49:12" mDate="2013-10-17T13:31:58" color="" cCount="0" qCount="1" />
+ <code name="Relationship between gallerist and collector_control sencondary market" id="co_50" au="Super" cDate="2013-10-16T16:37:18" mDate="2013-10-17T13:32:37" color="" cCount="0" qCount="3" />
+ <code name="Relationship between University and Gallery" id="co_51" au="Super" cDate="2013-10-16T16:27:59" mDate="2013-10-17T13:32:02" color="" cCount="0" qCount="2" />
+ <code name="relevance_of_discipline" id="co_52" au="Super" cDate="2013-10-16T12:34:36" mDate="2013-10-17T12:39:17" color="" cCount="0" qCount="1" />
+ <code name="social consciousness" id="co_53" au="Super" cDate="2013-10-16T16:11:32" mDate="2013-10-16T16:11:49" color="" cCount="0" qCount="2" />
+ <code name="start selling_switches the whole view" id="co_54" au="Super" cDate="2013-10-16T14:08:32" mDate="2013-10-17T13:32:19" color="" cCount="0" qCount="2" />
+ <code name="trading art work with artists" id="co_55" au="Super" cDate="2013-10-16T14:24:14" mDate="2013-10-16T14:24:14" color="" cCount="0" qCount="1" />
+ <code name="viewing mechanism" id="co_56" au="Super" cDate="2013-10-16T13:44:36" mDate="2013-10-16T13:45:06" color="" cCount="0" qCount="2" />
+</codes>
+<superCodes size="0" >
+</superCodes>
+<memos size="3" >
+ <memo name="collector's demand" id="me_1" au="Super" cDate="2013-10-16T16:01:00" mDate="2013-10-16T16:38:22" type="Commentary" mime="text/plain" fn="me_1">
+   <comment type="text/html" size="474"><p>Collectors only buy art when they can recognize certain qualities for value - a white, big gallery space; a certain neighborhood; certain digital representations. Lucas says here at this point, that this is a collector's demand and a reason why the gallery space will not disappear. It is somehow an established demand. If we relate this to Barthes language of fashion, these demands are certain signs the collector recognizes, that is the knowledge a collector accumulates.</p></comment>
+ </memo>
+ <memo name="conflict between control and appearance" id="me_3" au="Super" cDate="2013-10-16T16:15:26" mDate="2013-10-16T16:17:26" type="Commentary" mime="text/plain" fn="me_3">
+   <comment type="text/html" size="219"><p>to expand on this, the artist is in conflict with the demand outside of his studio - conversation, representation, purchases etc. - and what he wants to achieve with his work or how he wants people to perceive his work </p></comment>
+ </memo>
+ <memo name="multiple spaces occupying the same space" id="me_2" au="Super" cDate="2013-10-16T16:09:52" mDate="2013-10-16T16:10:27" type="Commentary" mime="text/plain" fn="me_2">
+   <comment type="text/html" size="78"><p>past, present, future, virtual, actual - they are layered on top of each other</p></comment>
+ </memo>
+</memos>
+<families>
+<codeFamilies size="13" >
+  <codeFamily name="Contemporary" id="cf_1" au="Super" cDate="2013-10-17T12:43:25" mDate="2013-10-17T13:34:00" >
+   <item id="co_17"/>
+   <item id="co_18"/>
+   <item id="co_19"/>
+   <item id="co_20"/>
+  </codeFamily>
+  <codeFamily name="exhibition" id="cf_2" au="Super" cDate="2013-10-17T13:11:35" mDate="2013-10-17T13:19:39" >
+   <item id="co_8"/>
+   <item id="co_11"/>
+   <item id="co_22"/>
+   <item id="co_23"/>
+   <item id="co_24"/>
+   <item id="co_25"/>
+   <item id="co_26"/>
+   <item id="co_27"/>
+   <item id="co_28"/>
+   <item id="co_32"/>
+  </codeFamily>
+  <codeFamily name="Gallerist and Collector Relationship" id="cf_3" au="Super" cDate="2013-10-17T13:16:50" mDate="2013-10-17T13:17:29" >
+   <item id="co_50"/>
+  </codeFamily>
+  <codeFamily name="income" id="cf_4" au="Super" cDate="2013-10-17T13:15:19" mDate="2013-10-17T13:30:02" >
+   <item id="co_12"/>
+   <item id="co_40"/>
+  </codeFamily>
+  <codeFamily name="pricing" id="cf_5" au="Super" cDate="2013-10-17T13:11:47" mDate="2013-10-17T13:20:38" >
+   <item id="co_42"/>
+   <item id="co_43"/>
+   <item id="co_44"/>
+   <item id="co_45"/>
+   <item id="co_46"/>
+   <item id="co_47"/>
+  </codeFamily>
+  <codeFamily name="relation to income" id="cf_6" au="Super" cDate="2013-10-17T12:58:31" mDate="2013-10-17T12:58:31" >
+  </codeFamily>
+  <codeFamily name="representation" id="cf_7" au="Super" cDate="2013-10-17T13:13:11" mDate="2013-10-17T13:32:02" >
+   <item id="co_7"/>
+   <item id="co_38"/>
+   <item id="co_49"/>
+   <item id="co_51"/>
+  </codeFamily>
+  <codeFamily name="sales" id="cf_8" au="Super" cDate="2013-10-17T13:14:33" mDate="2013-10-17T13:33:12" >
+   <item id="co_34"/>
+   <item id="co_37"/>
+   <item id="co_41"/>
+   <item id="co_50"/>
+   <item id="co_54"/>
+  </codeFamily>
+  <codeFamily name="Social Network" id="cf_9" au="Super" cDate="2013-10-17T12:37:44" mDate="2013-10-17T12:37:44" >
+  </codeFamily>
+  <codeFamily name="space" id="cf_10" au="Super" cDate="2013-10-17T12:01:41" mDate="2013-10-17T12:06:45" >
+   <item id="co_21"/>
+   <item id="co_39"/>
+   <item id="co_48"/>
+  </codeFamily>
+  <codeFamily name="Student Loans" id="cf_11" au="Super" cDate="2013-10-17T12:37:56" mDate="2013-10-17T12:37:56" >
+  </codeFamily>
+  <codeFamily name="University" id="cf_12" au="Super" cDate="2013-10-17T12:32:18" mDate="2013-10-17T12:39:07" >
+   <item id="co_35"/>
+   <item id="co_51"/>
+   <item id="co_52"/>
+  </codeFamily>
+  <codeFamily name="visits" id="cf_13" au="Super" cDate="2013-10-17T11:28:13" mDate="2013-10-17T12:07:17" >
+   <item id="co_2"/>
+   <item id="co_3"/>
+   <item id="co_4"/>
+   <item id="co_5"/>
+   <item id="co_29"/>
+   <item id="co_55"/>
+  </codeFamily>
+</codeFamilies>
+<superCodeFamilies size="3" >
+  <superCodeFamily name="Education" id="scf_1" au="Super" cDate="2013-10-17T12:38:21" mDate="2013-10-17T12:38:21" query=", &amp;(f(cf_11),f(cf_12))" />
+  <superCodeFamily name="Gallery" id="scf_2" au="Super" cDate="2013-10-17T13:34:40" mDate="2013-10-17T13:34:40" query=", &amp;(f(cf_8),&amp;(f(cf_7),&amp;(f(cf_4),&amp;(f(cf_5),&amp;(f(cf_3),f(cf_2))))))" />
+  <superCodeFamily name="studio" id="scf_3" au="Super" cDate="2013-10-17T12:59:54" mDate="2013-10-17T13:00:17" query=", &amp;(f(cf_6),&amp;(f(cf_10),f(cf_13)))" />
+</superCodeFamilies>
+<memoFamilies size="0" >
+</memoFamilies>
+<superMemoFamilies size="0" >
+</superMemoFamilies>
+<primDocFamilies size="0" >
+</primDocFamilies>
+<superPrimDocFamilies size="0" >
+</superPrimDocFamilies>
+</families>
+<netViews size="0" >
+</netViews>
+<links>
+<objectSegmentLinks>
+  <codings size="86" >
+   <iLink obj="co_2" qRef="q1_35" />
+   <iLink obj="co_3" qRef="q1_34" />
+   <iLink obj="co_4" qRef="q1_37" />
+   <iLink obj="co_5" qRef="q1_30" />
+   <iLink obj="co_5" qRef="q1_33" />
+   <iLink obj="co_6" qRef="q1_40" />
+   <iLink obj="co_7" qRef="q1_18" />
+   <iLink obj="co_7" qRef="q1_19" />
+   <iLink obj="co_7" qRef="q1_20" />
+   <iLink obj="co_8" qRef="q1_10" />
+   <iLink obj="co_9" qRef="q1_42" />
+   <iLink obj="co_10" qRef="q1_41" />
+   <iLink obj="co_10" qRef="q1_60" />
+   <iLink obj="co_11" qRef="q1_26" />
+   <iLink obj="co_12" qRef="q1_46" />
+   <iLink obj="co_13" qRef="q1_12" />
+   <iLink obj="co_13" qRef="q1_15" />
+   <iLink obj="co_14" qRef="q1_43" />
+   <iLink obj="co_14" qRef="q1_44" />
+   <iLink obj="co_15" qRef="q1_59" />
+   <iLink obj="co_16" qRef="q1_18" />
+   <iLink obj="co_16" qRef="q1_67" />
+   <iLink obj="co_17" qRef="q1_53" />
+   <iLink obj="co_17" qRef="q1_54" />
+   <iLink obj="co_17" qRef="q1_55" />
+   <iLink obj="co_17" qRef="q1_56" />
+   <iLink obj="co_18" qRef="q1_45" />
+   <iLink obj="co_19" qRef="q1_67" />
+   <iLink obj="co_20" qRef="q1_16" />
+   <iLink obj="co_20" qRef="q1_17" />
+   <iLink obj="co_20" qRef="q1_18" />
+   <iLink obj="co_20" qRef="q1_55" />
+   <iLink obj="co_20" qRef="q1_56" />
+   <iLink obj="co_21" qRef="q1_21" />
+   <iLink obj="co_21" qRef="q1_22" />
+   <iLink obj="co_22" qRef="q1_50" />
+   <iLink obj="co_23" qRef="q1_49" />
+   <iLink obj="co_24" qRef="q1_51" />
+   <iLink obj="co_25" qRef="q1_48" />
+   <iLink obj="co_26" qRef="q1_47" />
+   <iLink obj="co_27" qRef="q1_57" />
+   <iLink obj="co_28" qRef="q1_57" />
+   <iLink obj="co_29" qRef="q1_31" />
+   <iLink obj="co_30" qRef="q1_4" />
+   <iLink obj="co_30" qRef="q1_6" />
+   <iLink obj="co_31" qRef="q1_5" />
+   <iLink obj="co_31" qRef="q1_7" />
+   <iLink obj="co_31" qRef="q1_70" />
+   <iLink obj="co_32" qRef="q1_8" />
+   <iLink obj="co_33" qRef="q1_69" />
+   <iLink obj="co_34" qRef="q1_36" />
+   <iLink obj="co_35" qRef="q1_9" />
+   <iLink obj="co_35" qRef="q1_61" />
+   <iLink obj="co_35" qRef="q1_63" />
+   <iLink obj="co_36" qRef="q1_27" />
+   <iLink obj="co_37" qRef="q1_27" />
+   <iLink obj="co_38" qRef="q1_66" />
+   <iLink obj="co_39" qRef="q1_1" />
+   <iLink obj="co_39" qRef="q1_2" />
+   <iLink obj="co_40" qRef="q1_52" />
+   <iLink obj="co_41" qRef="q1_28" />
+   <iLink obj="co_41" qRef="q1_29" />
+   <iLink obj="co_42" qRef="q1_72" />
+   <iLink obj="co_43" qRef="q1_77" />
+   <iLink obj="co_44" qRef="q1_75" />
+   <iLink obj="co_45" qRef="q1_76" />
+   <iLink obj="co_45" qRef="q1_78" />
+   <iLink obj="co_46" qRef="q1_73" />
+   <iLink obj="co_47" qRef="q1_74" />
+   <iLink obj="co_48" qRef="q1_11" />
+   <iLink obj="co_48" qRef="q1_24" />
+   <iLink obj="co_48" qRef="q1_25" />
+   <iLink obj="co_49" qRef="q1_52" />
+   <iLink obj="co_50" qRef="q1_79" />
+   <iLink obj="co_50" qRef="q1_80" />
+   <iLink obj="co_50" qRef="q1_81" />
+   <iLink obj="co_51" qRef="q1_70" />
+   <iLink obj="co_51" qRef="q1_71" />
+   <iLink obj="co_52" qRef="q1_3" />
+   <iLink obj="co_53" qRef="q1_64" />
+   <iLink obj="co_53" qRef="q1_65" />
+   <iLink obj="co_54" qRef="q1_23" />
+   <iLink obj="co_54" qRef="q1_39" />
+   <iLink obj="co_55" qRef="q1_38" />
+   <iLink obj="co_56" qRef="q1_13" />
+   <iLink obj="co_56" qRef="q1_14" />
+  </codings>
+  <memoings size="3" >
+   <iLink obj="me_1" qRef="q1_58" />
+   <iLink obj="me_3" qRef="q1_68" />
+   <iLink obj="me_2" qRef="q1_62" />
+  </memoings>
+</objectSegmentLinks>
+ <codeLinkProtos size="0" >
+ </codeLinkProtos>
+ <codeLinks size="0" >
+ </codeLinks>
+ <hyperLinkProtos size="0" >
+ </hyperLinkProtos>
+ <hyperLinks size="0" >
+ </hyperLinks>
+ <memoMemoLinks size="0" >
+ </memoMemoLinks>
+ <memoCodeLinks size="0" >
+ </memoCodeLinks>
+ <codeMemoLinks size="0" >
+ </codeMemoLinks>
+</links>
+<settings bookMark ="" pd="pd_1" q="q1_18" code="" memo="" qFilter="All" qSort="nummer" cFilter="All" cFam="" cSort="families" mFilter="All" mFam="" mSort="name" />
+</storedHU>

@@ -1,0 +1,48 @@
+<div class="container">
+	
+	<div class="alert alert-danger" ng-show="location.path().indexOf('/upload')==-1 && ((adminModel.datasetOptions | filter:editableDatasets).length<=1)">
+		Oops! We couldn't find any datasets for you to delete. Click <a ng-click="setLocation('/admin/upload')">here</a> to upload something.
+	</div>
+	
+	<div class="alert alert-danger" ng-show="adminModel.confirmState==1">
+		Really delete? This cannot be undone!
+	  	<div style="margin-top:10px">
+	  		<button ng-click="deleteDataset(2)" class="btn btn-success btn-sm">Yes, delete</button>
+	  		<button ng-click="adminModel.confirmState=0;adminModel.selectedDatasetId=undefined" class="btn btn-default btn-sm">No</button>
+	  	</div>
+	</div>
+	
+	<form id="form" name="deleteForm" role="form" class="form-horizontal" ng-show="(adminModel.datasetOptions | filter:editableDatasets).length>1">
+	
+		<div class="form-group">
+	
+	 		<div class="col-lg-10">
+	  			<h2 id="header">Delete a Dataset</h2>
+	  			<p>Select a dataset to delete</p>
+	 		</div>
+	
+	 	</div>
+	
+		<div>
+		
+			<div class="form-group">
+		
+		 		<label class="col-lg-1"  for="entity-parent">Dataset</label>
+		
+		 		<div class="col-lg-6">
+		  			<select class="form-control input-sm" ng-model="adminModel.selectedDatasetId" ng-options="t.id as t.name for t in adminModel.datasetOptions | filter:editableDatasets"></select>
+		 		</div>
+		
+		 	</div>
+		
+			<div class="form-group">
+				<div class="col-lg-offset-1 col-lg-6">
+		  			<button type="button" class="btn btn-default" ng-click="deleteDataset()" ng-disabled="adminModel.selectedDatasetId==null">Delete</button>
+		  		</div>
+		 	</div>
+		
+		</div>
+		
+	</form>
+	
+</div>

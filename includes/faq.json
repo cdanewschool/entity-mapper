@@ -1,0 +1,22 @@
+[
+	{
+		"title":"What can I upload?",
+		"content":"<p>Currently, the Entity Mapper only supports uploading data that has been exported from Atlas.ti into a xml file format. We hope to add support for additional qualitative data analysis tools in the future.</p>"
+	},
+	{
+		"title":"What do I do?",
+		"content":"<p>Start by selecting a dataset. If there are no datasets listed, upload one yourself or contact an administrator.</p><p>After a dataset has been selected, you can click a node to see its details. Double-clicking a node toggles the appearance of all of the first-degree nodes that are related to it.</p><p>At any point, you can toggle the visibility of an entity type group via the Displayed Entities dropdown in the footer.</p>"
+	},
+	{
+		"title":"How do I install it?",
+		"content":"<p>Detailed instructions for installing the Entity Mapper can be found on our GitHUB page, but installation requires a LAMP server environment running PHP and MySQL.</p>"
+	},
+	{
+		"title":"How do I upload data?",
+		"content":"<ol><li>First, login as a user that has collaborator privileges or higher (i.e. the admin user that the Entity Mapper ships with). You'll know if the user you're logged in as has these privileges is there is an Admin menu with an \"Add/Edit\" option.</li><li>Choose \"Add/Edit\" from the Admin menu</li><li>Under Type, choose ATLAS.ti</li><li>Under File, browse to an XML file exported from ATLAS.ti. You can browse to one of the datasets shipped with the Entity Mapper or select your own. More information about exporting from ATLAS.ti can be found here.</li><li>Optionally, specify what you'd like to call your dataset (defaults to filename)</li><li>Finally, specify whether you want your dataset to be public or not</li></ol>"
+	},
+	{
+		"title":"What is the difference between a public and private dataset?",
+		"content":"Public datasets are visible by all all users, while private datasets are only visible to you. Regardless of a dataset's privacy setting, only you will be able to update or delete a dataset you own."
+	}
+]
