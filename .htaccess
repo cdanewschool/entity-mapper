@@ -1,0 +1,2 @@
+SetEnv HTTP_DB_USER "root"
+SetEnv HTTP_DB_PASS ""
