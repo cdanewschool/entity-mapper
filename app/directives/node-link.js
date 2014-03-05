@@ -63,7 +63,7 @@ app.factory
 app.directive
 (
 	"nodeLink",
-	function($rootScope,$parse,$timeout,model,graphModel,constants)
+	function($rootScope,$parse,$timeout,model,graphModel)
 	{
 		var w,h,r,x,y,vis;
 		var node;		//	dom elements corresponding to node/link data
