@@ -16,6 +16,7 @@ body
 	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	background: url("images/bg-pattern.png"); 
 }
 
 p {
@@ -36,7 +37,6 @@ p {
 }
 
 div[ng-view] { 
-	background: url("images/bg-pattern.png"); 
 	padding-top: 80px;
 }
 
