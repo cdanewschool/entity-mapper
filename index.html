@@ -160,8 +160,12 @@
 			
 			<ul class="nav navbar-nav navbar-right">
 			
-				<li class="footer-control" title="Set zoom factor" help-tip="model.help">
-					<label class="small">Zoom</label> <input type="text" ng-model="model.settings.zoomFactor" bootstrap-slider="5" style="width:100px">
+				<li class="footer-control" title="Set node size" help-tip="model.help">
+					<label class="small">Node Size</label> <input type="text" ng-model="model.settings.nodeRadius" bootstrap-slider="8" style="width:100px">
+				</li>
+				
+				<li class="footer-control" title="Set link distance" help-tip="model.help">
+					<label class="small">Link Distance</label> <input type="text" ng-model="model.settings.linkDistance" bootstrap-slider="500" style="width:100px">
 				</li>
 				
 				<li class="footer-control" title="Toggle edges" help-tip="model.help">

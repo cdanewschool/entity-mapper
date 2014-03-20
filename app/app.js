@@ -112,7 +112,8 @@ app.factory
 				descendantsMaximized:true,
 				entityTypes:null,
 				labelField:null,
-				zoomFactor:4
+				linkDistance:50,
+				nodeRadius:3
 			}
 		};
 	}

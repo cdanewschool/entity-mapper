@@ -76,9 +76,7 @@ app.directive
 		var fixedNodes = [];
 		var metaKeyPressed = false;
 		
-		var linkLog = d3.scale.log().domain([1,5]).range([1,400]);
-		
-		var linkDistance = function(link,index) { var val = linkLog(model.settings.zoomFactor); return val; };
+		var linkDistance = function(link,index) { return model.settings.linkDistance; };
 		
 		var updatePositions = function()
 		{
@@ -116,7 +114,7 @@ app.directive
 			else if( d.pack ) 
 				r = d.r;
 			else
-				r = d.value / 5 * model.settings.zoomFactor * 4;
+				r = d.value / 5 * model.settings.nodeRadius * 4;
 			
 			graphModel.nodeRadiusCache[d.id] = r;
 			
@@ -183,7 +181,7 @@ app.directive
 				 */
 				$scope.$watch
 				(
-					'model.settings.zoomFactor',
+					'model.settings.nodeRadius',
 					function(newVal,oldVal)
 					{
 						if(newVal!=oldVal)
@@ -198,7 +196,7 @@ app.directive
 								{
 									var r = 0;
 									for(var c in nodeDataPack[i].children)
-										r += (nodeDataPack[i].children[c].value * model.settings.zoomFactor);
+										r += (nodeDataPack[i].children[c].value * model.settings.nodeRadius);
 									
 									var pack = d3.layout.pack().size([r*2,r*2]).padding(3);
 									pack.nodes(nodeDataPack[i]);
@@ -219,6 +217,19 @@ app.directive
 							d3.selectAll('g.node')
 								.attr("transform","translate(" + w + "," + h + ")")
 							
+							force.linkDistance( function(link,index){ return linkDistance(link,index); } );
+							force.start();
+						}
+					}
+				);
+				
+				$scope.$watch
+				(
+					'model.settings.linkDistance',
+					function(newVal,oldVal)
+					{
+						if(newVal!=oldVal)
+						{
 							force.linkDistance( function(link,index){ return linkDistance(link,index); } );
 							force.start();
 						}
@@ -445,7 +456,7 @@ app.directive
 						{
 							var r = 0;
 							for(var c in nodeDataPack[i].children)
-								r += (nodeDataPack[i].children[c].value * model.settings.zoomFactor);
+								r += (nodeDataPack[i].children[c].value * model.settings.nodeRadius);
 							
 							var pack = d3.layout.pack().size([r*2,r*2]).padding(3);
 							pack.nodes(nodeDataPack[i]);
