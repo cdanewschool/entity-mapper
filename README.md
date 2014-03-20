@@ -2,6 +2,8 @@ Entity Mapper
 =============
 The Entity Mapper is a tool for visualizing qualitative data as an interactive node-link diagram. The tool's main focus is on the visual interpretation of [grounded theory](http://en.wikipedia.org/wiki/Grounded_theory) data, but supports any data exported from [Atlas.ti](http://www.atlasti.com). The project was funded through the [Telemedicine and Advanced Technology Research Center (TATRC)](http://www.tatrc.org/).
 
+Fore additional information visit [piim.newschool.edu/entitymapper](http://piim.newschool.edu/entitymapper).
+
 Features
 --------
 - Customize the color and visibility of each entity type in the visualization, including the ability to pack it's children
