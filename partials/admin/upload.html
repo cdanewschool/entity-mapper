@@ -55,97 +55,13 @@
    			<label class="col-lg-1" for="entity-parent">Public?</label>
    			
    			<div class="col-lg-6">
-   				
-   				<div class="switch-small" data-on-label="Yes" data-off-label="No" data-on="info" data-off="success" ng-model="adminModel.formData.upload.is_public" bootstrap-switch>
-					<input type="checkbox">
-				</div>
+   			
+   				<input type="checkbox" data-size="small" ng-model="adminModel.formData.upload.is_public" bootstrap-switch data-on-label="Yes" data-off-label="No" data-on="info" data-off="success">
 				
 			</div>
-				
+			
    		</div>
    		
-   		<div id="dataset-fields-group" class="form-group" ng-show="adminModel.formData.upload.id!=null">
-				
-	    	<label class="col-lg-1" for="entity-parent">Entity Types</label>
-			
-	    	<div class="col-lg-6 list-group">
-	    	
-				<div class="list-group-item" ng-repeat="entityType in adminModel.formData.upload.entityTypes">
-				
-		 			<h3 class="text-primary" style="margin-left:20px;margin-bottom:40px">{{entityType.name}}</h3>
-		 			
-					<form class="form-horizontal" role="form">
-					
-				 		<div class="form-group"">
-				 		
-				 			<label class="col-sm-3 control-label" for="color{{entityType.id}}">Color</label>
-				 			
-				 			<div class="col-sm-3">
-				 				<input id="color{{entityType.id}}" class="form-control colorfield" style="width:100px" type="text" ng-model="entityType.color" colorpicker>
-				 			</div>
-				 			
-				 			<div class="col-sm-6">
-				 				<small class="text-muted">Color for <strong>{{entityType.name}}s</strong></small>
-				 			</div>
-				 			
-				 		</div>
-				 		
-				 		<div class="form-group"">
-				 		
-				 			<label class="col-sm-3 control-label" for="enabled{{entityType.id}}">Enabled</label>
-				 			
-				 			<div class="col-sm-3">
-				 				<div id="enabled{{entityType.id}}" class="make-switch switch-small" data-on-label="On" data-off-label="Off" data-on="info" data-off="success" ng-model="entityType.enabled" bootstrap-switch>
-									<input type="checkbox">
-								</div>
-			 				</div>
-			 				
-			 				<div class="col-sm-6">
-				 				<small class="text-muted">Whether <strong>{{entityType.name}}s</strong> appear at all</small>
-				 			</div>
-				 			
-				 		</div>
-				 		
-				 		<div class="form-group"">
-				 			
-				 			<label class="col-sm-3 control-label" for="enabled{{entityType.id}}">Visible</label>
-				 			
-				 			<div class="col-sm-3">
-				 				<div id="visible{{entityType.id}}" class="make-switch switch-small" data-on-label="On" data-off-label="Off" data-on="info" data-off="success" ng-model="entityType.visible" bootstrap-switch>
-									<input type="checkbox">
-								</div>
-				 			</div>
-				 			
-				 			<div class="col-sm-6">
-				 				<small class="text-muted">Whether <strong>{{entityType.name}}s</strong> are visible by default</small>
-				 			</div>
-				 			
-				 		</div>
-				 		
-				 		<div class="form-group">
-				 			
-				 			<label class="col-sm-3 control-label" for="pack{{entityType.id}}">Pack children</label>
-				 			
-				 			<div class="col-sm-3">
-				 				<div id="pack{{entityType.id}}" class="make-switch switch-small" data-on-label="On" data-off-label="Off" data-on="info" data-off="success" ng-model="entityType.pack" bootstrap-switch>
-									<input type="checkbox">
-								</div>
-				 			</div>
-				 			
-				 			<div class="col-sm-6">
-				 				<small class="text-muted">Whether descendants of <strong>{{entityType.name}}s</strong> appear packed or linked</small>
-				 			</div>
-				 			
-				 		</div>
-				 		
-			 		</form>
-			 		
-		 		</div>
-		 		
-	    	</div>
-		
-	    </div>
-			    
 		<div class="form-group">
 		
 			<div class="col-lg-1 col-lg-offset-1">
