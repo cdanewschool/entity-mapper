@@ -5,9 +5,14 @@
 		{{adminModel.status}}
 	</div>
 	
-	<div class="alert alert-warning alert-dismissable" ng-show="!adminModel.cachingEnabled">
+	<div class="alert alert-info alert-dismissable" ng-show="!adminModel.cachingEnabled">
 		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-		Please add a <code>cache</code> directory under the document root with group read/write permissions to enable caching.<br/>This vastly improves performance for large datasets.
+		Please add a <code>cache</code> directory under the document root with group read/write permissions to enable caching. This can vastly improve performance for large datasets.
+	</div>
+	
+	<div class="alert alert-warning alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		Don't forget! Personal Identifiable Information (PII) or other confidential information should never be uploaded&mdash;please ensure your date is appropriately de-identified and ready for public consumption prior to using this tool.  
 	</div>
 	
 	<form name="uploadForm" role="form" class="form-horizontal">
