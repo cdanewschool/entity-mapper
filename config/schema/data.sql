@@ -18,6 +18,8 @@ SET time_zone = "+00:00";
 -- Dumping data for table `import_types`
 --
 
+TRUNCATE TABLE `import_types`;
+
 INSERT INTO `import_types` (`id`, `name`, `mime_type`, `class_name`, `file_name`, `is_default`) VALUES
 (1, 'ATLAS.ti', 'text/xml', 'AtlasTI', 'atlasti', 1);
 
@@ -25,12 +27,19 @@ INSERT INTO `import_types` (`id`, `name`, `mime_type`, `class_name`, `file_name`
 -- Dumping data for table `users`
 --
 
+TRUNCATE TABLE `users`;
+
 INSERT INTO `users` (`id`, `username`, `password`, `role_id`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 3);
+
+INSERT INTO `users` (`id`, `username`, `password`, `role_id`) VALUES
+(2, 'guest', '084e0343a0486ff05530df6c705c8bb4', 1);
 
 --
 -- Dumping data for table `user_roles`
 --
+
+TRUNCATE TABLE `user_roles`;
 
 INSERT INTO `user_roles` (`id`, `title`, `can_upload`, `is_admin`) VALUES
 (1, 'user', 0, 0),
