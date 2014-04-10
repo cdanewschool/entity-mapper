@@ -277,7 +277,7 @@ switch( $resource )
 					$user = new User( $dataset->getField('user_id') );
 					$type = new ImportType( $dataset->getField('type_id') );
 					
-					$item = array( 'id'=>$dataset->id, 'name'=>$dataset->getField('name'), 'updated'=>$dataset->getField('last_updated'), 'user_id'=>$dataset->getField('user_id'), 'user'=>$user->getField('username'), 'type_id'=>$dataset->getField('type_id'), 'type'=>$type->getField('name'), 'is_default'=>$dataset->getField('is_default')=="1", 'is_public'=>$dataset->getField('is_public')=="1", 'entityTypes'=>array(), 'fields'=>array(), 'cached'=>$dataset->isCached() );
+					$item = array( 'id'=>$dataset->id, 'name'=>$dataset->getField('name'), 'updated'=>$dataset->getField('last_updated'), 'user_id'=>$dataset->getField('user_id'), 'user'=>$user->getField('username'), 'node_radius'=>$dataset->getField('node_radius'), 'link_distance'=>$dataset->getField('link_distance'), 'type_id'=>$dataset->getField('type_id'), 'type'=>$type->getField('name'), 'is_default'=>$dataset->getField('is_default')=="1", 'is_public'=>$dataset->getField('is_public')=="1", 'entityTypes'=>array(), 'fields'=>array(), 'cached'=>$dataset->isCached() );
 					
 					if( count($dataset->customFields) )
 						foreach($dataset->customFields as $customField)
@@ -300,6 +300,8 @@ switch( $resource )
 				$dataset->setField( "user_id", $_POST['user_id'] );
 				$dataset->setField( "name", $_POST['name'] );
 				$dataset->setField( "is_public", $_POST['is_public'] );
+				$dataset->setField( "node_radius", $_POST['node_radius'] );
+				$dataset->setField( "link_distance", $_POST['link_distance'] );
 				
 				$output = array();
 				

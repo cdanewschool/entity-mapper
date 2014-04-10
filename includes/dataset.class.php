@@ -20,7 +20,7 @@ class Dataset extends DBObject
 		$this->entityTypes = array();
 		$this->customFields = array();
 		
-		parent::__construct( self::TABLE, array( "type_id", "user_id", "name", "is_default", "is_public", "last_updated", "cached_date" ), $id, $db );
+		parent::__construct( self::TABLE, array( "user_id", "type_id", "name", "node_radius", "link_distance", "is_default", "is_public", "last_updated", "cached_date" ), $id, $db );
 	}
 	
 	public function save()

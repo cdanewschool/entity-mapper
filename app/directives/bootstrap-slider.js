@@ -32,6 +32,15 @@ app.directive
 						scope.$apply();
 					}
 				);
+				
+				scope.$watch
+				(
+					model,
+					function(newVal,oldVal)
+					{
+						$(element).slider('setValue', model(scope));
+					}
+				);
 			}
 		};
 	}

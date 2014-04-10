@@ -70,6 +70,7 @@ app.directive
 		var link;
 		
 		var nodeData = null;
+		var nodeDataPack = null;
 		var hoverNode = null;
 		var LINK_OPACITY = .1;
 		var LINK_OPACITY_OVER = .8;
@@ -111,7 +112,7 @@ app.directive
 			
 			if( d.parent && d.parent.pack ) 
 				r = d.r;
-			else if( d.pack ) 
+			else if( d.pack && d.r ) 
 				r = d.r;
 			else
 				r = d.value / 5 * model.settings.nodeRadius * 4;
@@ -188,18 +189,21 @@ app.directive
 						{
 							graphModel.nodeRadiusCache = {};	//	clear radii cache
 							
-							//	update packed node position and size
-							//	TODO: fix issue where packed node childern aren't repositioned properly
-							for(var i=0;i<nodeDataPack.length;i++)
+							if( nodeDataPack )
 							{
-								if( nodeIsVisible(nodeDataPack[i]) )
+								//	update packed node position and size
+								//	TODO: fix issue where packed node childern aren't repositioned properly
+								for(var i=0;i<nodeDataPack.length;i++)
 								{
-									var r = 0;
-									for(var c in nodeDataPack[i].children)
-										r += (nodeDataPack[i].children[c].value * model.settings.nodeRadius);
-									
-									var pack = d3.layout.pack().size([r*2,r*2]).padding(3);
-									pack.nodes(nodeDataPack[i]);
+									if( nodeIsVisible(nodeDataPack[i]) )
+									{
+										var r = 0;
+										for(var c in nodeDataPack[i].children)
+											r += (nodeDataPack[i].children[c].value * model.settings.nodeRadius);
+										
+										var pack = d3.layout.pack().size([r*2,r*2]).padding(3);
+										pack.nodes(nodeDataPack[i]);
+									}
 								}
 							}
 							

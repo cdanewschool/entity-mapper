@@ -40,8 +40,8 @@ div[ng-view] {
 	padding-top: 80px;
 }
 
-div[ng-view].content > .container { 
-	padding-top: 100px; 
+div[ng-view] > .container { 
+	padding-top: 50px; 
 }
 
 #info.maximized  { 

@@ -33,6 +33,19 @@ app.controller
 	 		
 	 		$scope.$watch
 	 		(
+	 			'model.selectedDataset',
+	 			function(newVal,oldVal)
+	 			{
+	 				if( newVal != oldVal && newVal )
+ 					{
+	 					model.settings.nodeRadius = parseInt(newVal.node_radius);
+	 					model.settings.linkDistance = parseInt(newVal.link_distance);
+ 					}
+	 			}
+	 		);
+	 		
+	 		$scope.$watch
+	 		(
 	 			'model.datasets',
 	 			function(newVal,oldVal)
 	 			{
