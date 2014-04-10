@@ -336,21 +336,6 @@ app.controller
 	 			$scope.model.selectedDatasetId = id;
 	 		};
 	 		
-	 		$scope.setLabel = function(fieldId)
-	 		{
-	 			for(var id in $scope.model.selectedDataset.fields)
-				{
-					var field = $scope.model.selectedDataset.fields[id];
-					
-					if( field.id == fieldId )
-					{
-						$scope.setSetting('labelField', field);
-						
-						break;
-					}
-				}
-	 		};
-	 		
 	 		$scope.safeApply = function()
 			{
 				var phase = this.$root.$$phase;

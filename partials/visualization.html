@@ -7,29 +7,43 @@
 		<h4 ng-show="model.selectedNode.name!=null">{{model.selectedNode.name}}</h4>
 	
 		<p class="text-muted" ng-show="model.selectedNodeParent!=null" class="small">Parent: <a ng-mouseover="setHighlightedNode(model.selectedNodeParent)" ng-mouseleave="setHighlightedNode()" ng-click="setSelectedNode(model.selectedNodeParent);">{{model.selectedNodeParent.name}}</a></p>
+	
 	</div>
 	
 	<div ng-show="model.selectedNode.description!=null" ng-bind-html="model.selectedNode.description"></div>
 	
 	<div class="panel-group" id="accordion">
+	
 		<div class="panel panel-default" ng-repeat="(id,siblings) in model.selectedNodeRelatives">
+		
 			<div class="panel-heading">
+			
 				<h4 class="panel-title">
+				
 					<a data-toggle="collapse" data-parent="#accordion" ng-href="#collapse{{id}}">
 						<small>{{model.selectedDataset.entityTypesIndexed[id].name}}s</small>
 					</a>
+					
 				</h4>
+				
 			</div>
+			
 	    	<div id="collapse{{id}}" class="{'panel-collapse':true, 'collapse':true}" style="height:auto">
+	    	
 	      		<div class="panel-body" style="overflow-y: scroll;max-height:200px">
+	      		
 	        		<small>
 	        			<div style="margin-bottom:10px;" ng-repeat="child in siblings | orderBy:'name'">
 							<a ng-mouseover="setHighlightedNode(child)" ng-mouseleave="setHighlightedNode()" ng-click="setSelectedNode(child);" ng-bind-html="child.name"></a>
 						</div>
 	        		</small>
+	        		
 	        	</div>
+	        	
 	    	</div>
+	    	
 	  	</div>
+	  	
 	</div>
 
 </div>

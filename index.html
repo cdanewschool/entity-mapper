@@ -103,16 +103,6 @@
 		<div class="container">
 		
 			<ul class="nav navbar-nav">
-				 
-				<li class="dropdown" title="Change node label" help-tip="model.help" >
-					
-					<a class="dropdown-toggle" data-toggle="dropdown">Node Label <b class="caret"></b></a>
-					
-					<ul id="label-select" class="dropdown-menu">
-						<li ng-repeat="field in model.selectedDataset.fields"><a id='label_option_{{field.id}}' ng-click='setLabel("{{field.id}}")'>{{field.name}}</a></li>
-					</ul>
-					
-				</li>
 				
 				<li class="dropdown" title="Toggle entity type visibility" help-tip="model.help">
 					
@@ -120,7 +110,7 @@
 					
 					<ul class="dropdown-menu">
 						<li ng-repeat="entityType in model.selectedDataset.entityTypes | filter:{enabled:true}">
-							<a ng-class="{'btn':true,'btn-link':true,'active':entityType.visible}" style="color:#{{entityType.color}}" ng-click="entityType.visible=!entityType.visible">{{entityType.name}} <span ng-show="entityType.visible" >x</span></a>
+							<a class="entity-type-toggle" ng-class="{'active':entityType.visible}" style="color:#{{entityType.color}}" ng-click="entityType.visible=!entityType.visible">{{entityType.name}}</a>
 						</li>
 					</ul>
 					

@@ -24,43 +24,13 @@ p {
 	line-height: 1.6em;
 }
 
-/*	custom styles	*/
-#info 
-{ 
-	height:100%;
-	background:#fff;
-	border-left: solid 2px #eee;
-	margin-top:0px;
-	padding:20px 20px 20px 40px;
-	position: relative;
-    overflow: hidden;
-}
-
-#info .header {
-	margin-bottom: 40px;
-}
-
+/*	global	*/
 div[ng-view] { 
 	padding-top: 80px;
 }
 
 div[ng-view] > .container { 
 	padding-top: 50px; 
-}
-
-#info.maximized  { 
-	float:right; width:25%; 
-}
-
-#visualization { 
-	width:100%; 
-	height:100%; 
-	margin-top:0px;
-}
-
-#visualization.minimized  { 
-	float:left; 
-	width:75%;
 }
 
 #blocker { 
@@ -93,6 +63,37 @@ div[ng-view] > .container {
 	margin-top: 10px;
 }
 
+/*	visualization	*/
+#visualization { 
+	width:100%; 
+	height:100%; 
+	margin-top:0px;
+}
+
+#visualization.minimized  { 
+	float:left; 
+	width:75%;
+}
+
+#info 
+{ 
+	height:100%;
+	background:#fff;
+	border-left: solid 2px #eee;
+	margin-top:0px;
+	padding:20px 20px 20px 40px;
+	position: relative;
+    overflow: hidden;
+}
+
+#info .header {
+	margin-bottom: 40px;
+}
+
+#info.maximized  { 
+	float:right; width:25%; 
+}
+
 .header { 
 	font-size: .7em; 
 	font-weight: bold; 
@@ -105,9 +106,17 @@ div[ng-view] > .container {
 	line-height: 1.4em; 
 }
 
+.entity-type-toggle {
+	text-decoration: line-through;
+}
+
+.entity-type-toggle.active {
+	text-decoration: none;
+}
+
 .footer-control { margin: 12px; }
 
-/*	VISUALIZATION	*/
+/*	svg	*/
 circle.node { fill-opacity: 1; }
 circle.border { fill-opacity: 0; }
 circle.minimized { fill-opacity: .25; stroke-width: 2px; }
@@ -123,7 +132,7 @@ text { font-size: .7em; font-family: "Arial",sans-serif; }
 text.entityLabel { fill: #000; }
 text.fieldLabel { fill: #fff; }
 
-/*	Bootstrap overrides	*/
+/*	bootstrap overrides	*/
 h2 { 
 	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300; 
@@ -131,6 +140,7 @@ h2 {
 	font-size: 2.4em; 
 	text-transform: uppercase;
 }
+
 table { 
 	background-color: #fff; 
 }
@@ -140,6 +150,7 @@ label, thead {
 	font-weight: 400; 
 	text-transform: uppercase;
 }
+
 .form-group > label {
 	margin-top: 5px; 
 }
