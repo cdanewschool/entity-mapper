@@ -90,8 +90,8 @@ app.controller
 	 			data.append('name',adminModel.formData.upload.name);
 	 			data.append('file',adminModel.formData.upload.file);
 	 			data.append('type_id',adminModel.formData.upload.type_id);
-	 			data.append('node_radius',adminModel.formData.upload.node_radius);
-	 			data.append('link_distance',adminModel.formData.upload.link_distance);
+	 			data.append('node_radius',adminModel.formData.upload.node_radius?adminModel.formData.upload.node_radius:3);
+	 			data.append('link_distance',adminModel.formData.upload.link_distance?adminModel.formData.upload.link_distance:50);
 	 			data.append('is_public',adminModel.formData.upload.is_public==1 ? 1 : 0);
 	 			
 	 			for(var e in adminModel.formData.upload.entityTypes)
