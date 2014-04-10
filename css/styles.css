@@ -36,6 +36,10 @@ p {
     overflow: hidden;
 }
 
+#info .header {
+	margin-bottom: 40px;
+}
+
 div[ng-view] { 
 	padding-top: 80px;
 }
@@ -66,7 +70,7 @@ div[ng-view] > .container {
 	left:0px;
 	top:0px;
 	background-color:rgba(0,0,0,.5);
-	z-index:999;
+	z-index:1034;
 }
 
 #blocker > div {

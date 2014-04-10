@@ -206,6 +206,8 @@ app.controller
 	 				$scope.model.selectedNodeParent = graphModel.getNodeById(node.parent_id,graphModel.nodesFlat);
 	 			
 	 			var childrenByType = {};
+	 			var childrenIndexed = {};
+	 			
 	 			var relative;
 	 			
 	 			var links = model.selectedDataset.graph.links;
@@ -220,11 +222,14 @@ app.controller
 	 				if( relative
 	 					&& relative.id != node.parent_id )
 	 				{
-	 					if( !childrenByType[relative.entity_type_id] )
-		 					childrenByType[relative.entity_type_id] = [];
-		 				
-	 					if( childrenByType[relative.entity_type_id].indexOf( relative ) == -1 )
+	 					if( !childrenIndexed[relative.id] )
+	 					{
+	 						if( !childrenByType[relative.entity_type_id] )
+			 					childrenByType[relative.entity_type_id] = [];
+			 				
 	 						childrenByType[relative.entity_type_id].push( relative );
+	 						childrenIndexed[relative.id] = 1;
+	 					}
 	 				}
 	 			}
 	 			
@@ -240,11 +245,14 @@ app.controller
 	 				if( relative
 	 					&& relative.id != node.parent_id )
 	 				{
-	 					if( !childrenByType[relative.entity_type_id] )
-		 					childrenByType[relative.entity_type_id] = [];
-		 				
-	 					if( childrenByType[relative.entity_type_id].indexOf( relative ) == -1 )
+	 					if( !childrenIndexed[relative.id] )
+	 					{
+	 						if( !childrenByType[relative.entity_type_id] )
+			 					childrenByType[relative.entity_type_id] = [];
+			 				
 	 						childrenByType[relative.entity_type_id].push( relative );
+	 						childrenIndexed[relative.id] = 1;
+	 					}
 	 				}
 	 			}
 	 			
@@ -252,15 +260,18 @@ app.controller
 	 			{
 	 				relative = node.__children[c];
 	 				
-	 				if( !childrenByType[relative.entity_type_id] )
-		 				childrenByType[relative.entity_type_id] = [];
-	 				
-	 				if( childrenByType[relative.entity_type_id].indexOf( relative ) == -1 )
+	 				if( !childrenIndexed[relative.id] )
+ 					{
+ 						if( !childrenByType[relative.entity_type_id] )
+		 					childrenByType[relative.entity_type_id] = [];
+		 				
  						childrenByType[relative.entity_type_id].push( relative );
+ 						childrenIndexed[relative.id] = 1;
+ 					}
 	 			}
 	 			
 	 			$scope.model.selectedNodeRelatives = childrenByType;
-	 			
+	 			console.log( $scope.model.selectedNodeRelatives )
 	 			$scope.safeApply();
 	 		};
 	 		
