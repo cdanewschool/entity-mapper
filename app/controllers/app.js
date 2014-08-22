@@ -271,7 +271,7 @@ app.controller
 	 			}
 	 			
 	 			$scope.model.selectedNodeRelatives = childrenByType;
-	 			console.log( $scope.model.selectedNodeRelatives )
+	 			
 	 			$scope.safeApply();
 	 		};
 	 		

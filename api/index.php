@@ -1,30 +1,28 @@
 <?php 
 set_include_path("../");
+
 include_once "config/db.php";
 include_once "includes/db.class.php";
 
-define("DEBUG",false);
-
-if( DEBUG )
-{
-	echo "<pre>";
-	print_r($_GET);
-	print_r($_POST);
-	print_r($_FILES);
-	print_r($_SESSION);
-}
-
 session_start();
 
+/**
+	.htaccess is used to rewrite REST urls to a query-string format
+ */
 $resource = isset($_GET['resource'])?$_GET['resource']:null;
 $resourceId = isset($_GET['resourceId'])?$_GET['resourceId']:null;
 $modifier = isset($_GET['modifier'])?$_GET['modifier']:null;
 
+//	default response object to be populated
 $response = (object)array("success"=>1);
 
+//	database connection
 $db = new Database();
+
+//	result array
 $items = array();
 
+//	switch on resource
 switch( $resource )
 {
 	case "login":
@@ -43,17 +41,20 @@ switch( $resource )
 				
 				if( $response->success )
 				{
+					//	search for matching user
 					$sql =  "SELECT u.id,u.username,u.password,u.role_id,ur.can_upload,ur.is_admin FROM " . User::TABLE . " AS u ";
 					$sql .= "LEFT JOIN user_roles AS ur ON ur.id = u.role_id ";
 					$sql .= "WHERE u.username='" . $db->real_escape_string($_POST['username']) . "' AND u.password='" . md5($db->real_escape_string($_POST['password'])) . "'";
 					
 					$result = $db->query( $sql );
 					
+					//	failure, return error
 					if( $result->num_rows == 0 )
 					{
 						$response->success = 0;
 						$response->error = "No user found";
 					}
+					//	success, return user
 					else
 					{
 						$row = $result->fetch_assoc();
@@ -78,12 +79,14 @@ switch( $resource )
 			{
 				case "POST":
 					
+					//	no logged-in user error
 					if( !isset($_SESSION['user_id']) )
 					{
 						$response->success = 0;
 						$response->error = "No user to logout";
 					}
 					
+					//	auth error
 					if( $_SESSION['user_id'] != $_POST['user_id'] )
 					{
 						$response->success = 0;
@@ -108,18 +111,21 @@ switch( $resource )
 		{
 			case "GET":
 	
+				//	no session error
 				if( !isset($_SESSION['user_id']) )
 				{
 					$response->success = 0;
 					$response->error = "No user found";
 				}
-	
+				
+				//	get user from session
 				if( $response->success )
 				{
 					$sql = "SELECT id,username,password,role_id FROM " . User::TABLE . " WHERE id='" . $_SESSION['user_id'] . "'";
-						
+					
 					$result = $db->query( $sql );
-	
+					
+					//	no/invalid user error
 					if( $result->num_rows == 0 )
 					{
 						$response->success = 0;
@@ -145,6 +151,7 @@ switch( $resource )
 		{
 			case "GET":
 				
+				//	only allow admins to get all users
 				if( !isset($_SESSION['is_admin']) || !$_SESSION['is_admin'] )
 				{
 					$response->success = 0;
@@ -263,6 +270,9 @@ switch( $resource )
 		
 		switch( $_SERVER['REQUEST_METHOD'] )
 		{
+			/**
+			 * Returns metadata for a dataset
+			 */
 			case "GET":
 				
 				$sql = "SELECT id FROM " . Dataset::TABLE . " WHERE is_public = '1' OR user_id = '" . $_SESSION['user_id'] . "'";
@@ -293,17 +303,20 @@ switch( $resource )
 				$response->cachable = is_writable(Dataset::CACHE_ROOT);
 				
 				break;
-				
+			
+			/**
+			 * Imports a dataset
+			 */
 			case "POST":
 				
 				$dataset = new Dataset( $resourceId );
+				
+				//	set metadata
 				$dataset->setField( "user_id", $_POST['user_id'] );
 				$dataset->setField( "name", $_POST['name'] );
 				$dataset->setField( "is_public", $_POST['is_public'] );
 				$dataset->setField( "node_radius", $_POST['node_radius'] );
 				$dataset->setField( "link_distance", $_POST['link_distance'] );
-				
-				$output = array();
 				
 				foreach($dataset->entityTypes as $entityType)
 				{
@@ -322,6 +335,7 @@ switch( $resource )
 						$entityType->setField("pack",$_POST["pack_" . $entityId]=='true'?1:0);
 				}
 				
+				//	process file containing graph structure
 				if ( isset($_FILES['file']) 
 					&& $_FILES['file']['error'] == UPLOAD_ERR_OK
 					&& is_uploaded_file($_FILES['file']['tmp_name']) )
@@ -354,23 +368,26 @@ switch( $resource )
 					$i = new $className( $dataset );
 					$i->filepath = $_FILES['file']['tmp_name'];
 					
-					$output = $i->import();
-					
-					$response->data = $output;
+					$response->data = $i->import();
 				}
 				
 				$dataset->save();
 				
 				break;
-				
+
+			/**
+			 * Deletes a dataset
+			 */
 			case "DELETE":
 				
+				//	require the id of the resource to be deleted
 				if( is_null($resourceId) )
 				{
 					$response->success = 0;
 					$response->error = "Invalid resource identifier";
 				}
 				
+				//	instantiate dataset
 				$dataset = new Dataset( $resourceId );
 				
 				if( !isset($dataset->id) )
@@ -379,6 +396,7 @@ switch( $resource )
 					$response->error = "Invalid resource identifier";
 				}
 				
+				//	TODO: mark as deleted vs destructively deleting
 				$dataset->delete();
 				
 				break;
@@ -389,57 +407,66 @@ switch( $resource )
 	case "graph":
 	
 		include_once "includes/dataset.class.php";
-	
+		
 		switch( $_SERVER['REQUEST_METHOD'] )
 		{
 			case "GET":
 				
 				$dataset = new Dataset( $resourceId );
 				
+				//	return cached version of network graph if available
 				if ( !is_null($resourceId)
 					&& $dataset->isCached() )
 				{
 					$response->data = json_decode(file_get_contents($dataset->cachePath()), true);
 					$response->data['cached'] = true;
 				}
+				
+				//	construct, cache and return network graph
 				else
 				{
 					include_once "includes/edge.class.php";
 					include_once "includes/entity.class.php";
 					include_once "includes/entitytype.class.php";
 					
-					//	get params
-					$additionalNodeFields = isset($_GET['additionalNodeFields']) ? explode(',',$_GET['additionalNodeFields']) : null;
-					$entityTypes = isset($_GET['entityTypes']) ? explode(',',$_GET['entityTypes']) : null;
-					$labelField = isset($_GET['labelField']) ? $_GET['labelField'] : null;
-					
+					//	graph components
 					$nodes = array();
-					$entitiesIndexed = array();
-					
 					$links = array();
-					$nodesFlat = array();
-					$fields = array();
 					$entityTypes = array();
 					
+					$nodesIndexed = array();
 					$entityTypesIndexed = array();
+					$fields = array();
+					$nodesFlat = array();
 					
-					function getNode( $entity, $isChild = false )
+					/**
+					 * Recursively constructs a node tree from $entity
+					 * 
+					 * @param Entity $entity
+					 * @param string $isChild
+					 * @return StdClass
+					 */
+					function appendNode( $entity, $isChild = false )
 					{
-						global $entitiesIndexed,$nodesFlat,$nodes,$db;
-					
+						global $nodesIndexed,$nodesFlat,$nodes,$db;
+						
+						//	base node object
 						$node = (object)array( "id"=>$entity->id, "_index"=>count($nodesFlat), "value"=>1 );
-							
+						
+						//	node's entity type
 						$entityType = isset($entityTypesIndexed[$entity->getField('entity_type_id')]) ? $entityTypesIndexed[$entity->getField('entity_type_id')] : new EntityType( $entity->getField('entity_type_id'), $db );
-							
+						
+						//	set node color to that of entity type
 						if( !is_null($entityType) )
 							$node->color = $entityType->getField('color');
-							
-						if( !isset($entitiesIndexed[$entity->id]) )
+						
+						//	cache node for later access
+						if( !isset($nodesIndexed[$entity->id]) )
 						{
-							$entitiesIndexed[$entity->id] = $node;
+							$nodesIndexed[$entity->id] = $node;
 							$nodesFlat[] = $node;
 						}
-							
+						
 						foreach($entity->fields as $field=>$value)
 						{
 							$node->$field = $value;
@@ -450,11 +477,11 @@ switch( $resource )
 							
 						$title = '<span class="tooltip_header">' . $node->name . '</span>';
 						if( !is_null($entityType) ) $title .= '<span class="tooltip_subheader">(' . $entityType->getField('name') . ')</span>';
-							
+						
 						$node->title = $title;
 						$node->pack = $entityType->getField('pack') == 1;
 						$node->visible = $entityType->getField('visible') == 1;
-					
+						
 						if( count($entity->children) )
 						{
 							$children = array();
@@ -463,17 +490,17 @@ switch( $resource )
 							foreach($entity->children as $child)
 							{
 								$tooltip[] = $child->getField('name');
-								$children[] = getNode( $child, true );
+								$children[] = appendNode( $child, true );
 							}
 					
 							$node->children = $children;
 						}
 							
 						$node->fields = array();
-							
+						
 						foreach($entity->dataFields as $field=>$value)
 						{
-							$node->fields[$field] = $value;
+							$node->fields[$field] = json_encode($value);
 						}
 							
 						return $node;
@@ -503,53 +530,17 @@ switch( $resource )
 						return $return;
 					}
 					
-					//	get nodes
+					//	begin constructing node tree by selecting all top-level nodes
 					$sql = "SELECT id FROM " . Entity::TABLE . " WHERE dataset_id='" . $resourceId . "' AND parent_id is NULL";
 					$result = $db->query( $sql );
 					
 					while( $row = $result->fetch_assoc() )
 					{
 						$entity = new Entity( $row['id'], $db );
-						$node = getNode( $entity );
-					
-						foreach($node->fields as $field=>$value)
-						{
-							if( !isset($fields[$field]) ) $fields[$field] = array();
-							if( !isset($fields[$field][$value]) ) $fields[$field][$value] = array();
-					
-							$fields[$field][$value][] = $node;
-						}
+						$node = appendNode( $entity );
 					}
 					
-					foreach($fields as $field=>$values)
-					{
-						foreach($values as $value=>$matches)
-						{
-							if( !is_null($additionalNodeFields)
-							&& array_search( $field, $additionalNodeFields ) > -1
-							&& count($matches) > 0 )
-							{
-								$node = (object)array( "_index"=>count($nodesFlat), "name"=>$value, "type"=>"field", "value"=>1 );
-								$nodes[] = $node;
-								$nodesFlat[] = $node;
-					
-								if( $field == "color" ) $node->color = $value;
-					
-								foreach($matches as $match)
-								{
-									$link = array('target'=>$node->id,'source'=>$match->id,'type'=>'field','value'=>1);
-									$links[] = (object)$link;
-								}
-							}
-					
-							foreach($matches as $match)
-							{
-								if( $field == "color" ) $match->color = $value;
-							}
-						}
-					}
-					
-					//	create links between parent<>child nodes
+					//	create inferred links based on parent<>child relationships
 					foreach($nodes as $node)
 					{
 						if( !is_null($node->parent_id) )
@@ -570,8 +561,8 @@ switch( $resource )
 					
 					while( $row = $result->fetch_assoc() )
 					{
-						$source = $entitiesIndexed[ $row['source_id'] ];
-						$target = $entitiesIndexed[ $row['target_id'] ];
+						$source = $nodesIndexed[ $row['source_id'] ];
+						$target = $nodesIndexed[ $row['target_id'] ];
 						
 						if( !is_null($source) && !is_null($target) )
 						{
@@ -631,12 +622,6 @@ switch( $resource )
 
 if( isset($items) && count($items) )
 	$response->results = $items;
-
-if( DEBUG )
-{
-	print_r($response);
-	echo "</pre>";
-}
 
 echo json_encode($response);
 ?>

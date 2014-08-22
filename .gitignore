@@ -1,4 +1,7 @@
 .DS_Store
-.htaccess
 .project
 .settings
+
+.htaccess
+
+cache
